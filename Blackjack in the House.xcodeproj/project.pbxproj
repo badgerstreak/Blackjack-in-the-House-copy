@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F30B30E124E9E3400069BB05 /* my seat2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B30DC24E9E3400069BB05 /* my seat2.mp3 */; };
+		F30B30F024E9E3C80069BB05 /* winning not.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B30E724E9E3C80069BB05 /* winning not.mp3 */; };
+		F30B30F224E9E3C80069BB05 /* on the chin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B30E924E9E3C80069BB05 /* on the chin.mp3 */; };
+		F30B30F424E9E3C80069BB05 /* stupid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B30EB24E9E3C80069BB05 /* stupid.mp3 */; };
+		F30B30F524E9E3C80069BB05 /* food chain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B30EC24E9E3C80069BB05 /* food chain.mp3 */; };
+		F30B30F624E9E3C80069BB05 /* gooder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B30ED24E9E3C80069BB05 /* gooder.mp3 */; };
+		F30B310024E9E49B0069BB05 /* lose better.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B30F924E9E49B0069BB05 /* lose better.mp3 */; };
+		F30B310124E9E49B0069BB05 /* hilary desk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B30FA24E9E49B0069BB05 /* hilary desk.mp3 */; };
+		F30B310224E9E49B0069BB05 /* not ripped.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B30FB24E9E49B0069BB05 /* not ripped.mp3 */; };
+		F30B310424E9E49B0069BB05 /* easy come.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B30FD24E9E49B0069BB05 /* easy come.mp3 */; };
+		F30B310524E9E49B0069BB05 /* you win im rich.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B30FE24E9E49B0069BB05 /* you win im rich.mp3 */; };
+		F30B310624E9E49B0069BB05 /* loose change.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B30FF24E9E49B0069BB05 /* loose change.mp3 */; };
+		F30B311024E9E5670069BB05 /* 35 bj.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B310824E9E5670069BB05 /* 35 bj.mp3 */; };
+		F30B311324E9E5670069BB05 /* whitejack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B310B24E9E5670069BB05 /* whitejack.mp3 */; };
+		F30B311424E9E5670069BB05 /* piss off.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B310C24E9E5670069BB05 /* piss off.mp3 */; };
+		F30B311624E9E5670069BB05 /* can i say bj.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B310E24E9E5670069BB05 /* can i say bj.mp3 */; };
+		F30B312424E9E6070069BB05 /* won again.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B311B24E9E6070069BB05 /* won again.mp3 */; };
+		F30B312524E9E6070069BB05 /* leather.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B311C24E9E6070069BB05 /* leather.mp3 */; };
+		F30B312724E9E6070069BB05 /* my seat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B311E24E9E6070069BB05 /* my seat.mp3 */; };
+		F30B312924E9E6070069BB05 /* lost conc.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B312024E9E6070069BB05 /* lost conc.mp3 */; };
+		F30B313524E9E6A80069BB05 /* stump up pb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B312C24E9E6A80069BB05 /* stump up pb.mp3 */; };
+		F30B313624E9E6A80069BB05 /* lose to donald.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B312D24E9E6A80069BB05 /* lose to donald.mp3 */; };
+		F30B313724E9E6A80069BB05 /* rig it.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B312E24E9E6A80069BB05 /* rig it.mp3 */; };
+		F30B313A24E9E6A80069BB05 /* hilarys hand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B313124E9E6A80069BB05 /* hilarys hand.mp3 */; };
+		F30B313B24E9E6A80069BB05 /* kings.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B313224E9E6A80069BB05 /* kings.mp3 */; };
+		F30B313C24E9E6A80069BB05 /* beat ass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B313324E9E6A80069BB05 /* beat ass.mp3 */; };
+		F3556B4F24832C7900C640CB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F3556B4E24832C7900C640CB /* Actions.sks */; };
+		F3658A1824C9055B007395F1 /* playlistbj.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3658A1724C9055B007395F1 /* playlistbj.mp3 */; };
+		F3661A5D24B78E2F001079BF /* musicplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3661A5C24B78E2F001079BF /* musicplayer.swift */; };
+		F3661A5F24B7D8CD001079BF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3661A5E24B7D8CD001079BF /* Default-568h@2x.png */; };
+		F368245524EDBC14004A82AE /* move lips ah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368244024EDBC13004A82AE /* move lips ah.mp3 */; };
+		F368245624EDBC14004A82AE /* not whitejack da.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368244124EDBC13004A82AE /* not whitejack da.mp3 */; };
+		F368245724EDBC14004A82AE /* whipped.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368244224EDBC13004A82AE /* whipped.mp3 */; };
+		F368245824EDBC14004A82AE /* chicken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368244324EDBC14004A82AE /* chicken.mp3 */; };
+		F368245924EDBC14004A82AE /* sarcasm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368244424EDBC14004A82AE /* sarcasm.mp3 */; };
+		F368245A24EDBC14004A82AE /* thick b.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368244524EDBC14004A82AE /* thick b.mp3 */; };
+		F368245B24EDBC14004A82AE /* mail order.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368244624EDBC14004A82AE /* mail order.mp3 */; };
+		F368245C24EDBC14004A82AE /* russian.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368244724EDBC14004A82AE /* russian.mp3 */; };
+		F368245D24EDBC14004A82AE /* crayon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368244824EDBC14004A82AE /* crayon.mp3 */; };
+		F368245E24EDBC14004A82AE /* cheeto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368244924EDBC14004A82AE /* cheeto.mp3 */; };
+		F368245F24EDBC14004A82AE /* looks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368244A24EDBC14004A82AE /* looks.mp3 */; };
+		F368246024EDBC14004A82AE /* d duck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368244B24EDBC14004A82AE /* d duck.mp3 */; };
+		F368246124EDBC14004A82AE /* hooker.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368244C24EDBC14004A82AE /* hooker.mp3 */; };
+		F368246224EDBC14004A82AE /* blow mouth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368244D24EDBC14004A82AE /* blow mouth.mp3 */; };
+		F368246324EDBC14004A82AE /* teeth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368244E24EDBC14004A82AE /* teeth.mp3 */; };
+		F368246424EDBC14004A82AE /* daddy money.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368244F24EDBC14004A82AE /* daddy money.mp3 */; };
+		F368246524EDBC14004A82AE /* ping pong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368245024EDBC14004A82AE /* ping pong.mp3 */; };
+		F368246624EDBC14004A82AE /* be back da.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368245124EDBC14004A82AE /* be back da.mp3 */; };
+		F368246724EDBC14004A82AE /* knicks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368245224EDBC14004A82AE /* knicks.mp3 */; };
+		F368246824EDBC14004A82AE /* happy meal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368245324EDBC14004A82AE /* happy meal.mp3 */; };
+		F368246924EDBC14004A82AE /* chunky ass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368245424EDBC14004A82AE /* chunky ass.mp3 */; };
+		F38ABCC92496DA4D0090078B /* silence2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F38ABCBC2496DA4C0090078B /* silence2.mp3 */; };
+		F38ABCCB2496DA4D0090078B /* silence3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F38ABCBE2496DA4C0090078B /* silence3.mp3 */; };
+		F38ABCCE2496DA4D0090078B /* silence1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F38ABCC12496DA4D0090078B /* silence1.mp3 */; };
+		F3B952E42482DCB4000999C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B952E22482DCB4000999C4 /* Main.storyboard */; };
+		F3C0DF172482E36F004AB4CD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0DF0B2482E36F004AB4CD /* GameViewController.swift */; };
+		F3C0DF182482E36F004AB4CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C0DF0C2482E36F004AB4CD /* Assets.xcassets */; };
+		F3C0DF192482E36F004AB4CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C0DF0D2482E36F004AB4CD /* LaunchScreen.storyboard */; };
+		F3C0DF1A2482E36F004AB4CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C0DF0F2482E36F004AB4CD /* Main.storyboard */; };
+		F3C0DF1B2482E36F004AB4CD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F3C0DF112482E36F004AB4CD /* GameScene.sks */; };
+		F3C0DF1C2482E36F004AB4CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0DF122482E36F004AB4CD /* AppDelegate.swift */; };
+		F3C0DF1D2482E36F004AB4CD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0DF132482E36F004AB4CD /* GameScene.swift */; };
+		F3C0DF2C2482E5F6004AB4CD /* MoneyValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0DF212482E5F5004AB4CD /* MoneyValue.swift */; };
+		F3C0DF2D2482E5F6004AB4CD /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0DF222482E5F5004AB4CD /* Deck.swift */; };
+		F3C0DF2E2482E5F6004AB4CD /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0DF232482E5F5004AB4CD /* Hand.swift */; };
+		F3C0DF302482E5F6004AB4CD /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0DF252482E5F5004AB4CD /* Utilities.swift */; };
+		F3C0DF322482E5F6004AB4CD /* GenericPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0DF272482E5F5004AB4CD /* GenericPlayer.swift */; };
+		F3C0DF332482E5F6004AB4CD /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0DF282482E5F5004AB4CD /* Card.swift */; };
+		F3C0DF342482E5F6004AB4CD /* Dealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0DF292482E5F6004AB4CD /* Dealer.swift */; };
+		F3C0DF352482E5F6004AB4CD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0DF2A2482E5F6004AB4CD /* Player.swift */; };
+		F3C0DF362482E5F6004AB4CD /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0DF2B2482E5F6004AB4CD /* Bank.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F30B30DC24E9E3400069BB05 /* my seat2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "my seat2.mp3"; sourceTree = "<group>"; };
+		F30B30E724E9E3C80069BB05 /* winning not.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "winning not.mp3"; sourceTree = "<group>"; };
+		F30B30E924E9E3C80069BB05 /* on the chin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "on the chin.mp3"; sourceTree = "<group>"; };
+		F30B30EB24E9E3C80069BB05 /* stupid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stupid.mp3; sourceTree = "<group>"; };
+		F30B30EC24E9E3C80069BB05 /* food chain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "food chain.mp3"; sourceTree = "<group>"; };
+		F30B30ED24E9E3C80069BB05 /* gooder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gooder.mp3; sourceTree = "<group>"; };
+		F30B30F924E9E49B0069BB05 /* lose better.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lose better.mp3"; sourceTree = "<group>"; };
+		F30B30FA24E9E49B0069BB05 /* hilary desk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hilary desk.mp3"; sourceTree = "<group>"; };
+		F30B30FB24E9E49B0069BB05 /* not ripped.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "not ripped.mp3"; sourceTree = "<group>"; };
+		F30B30FD24E9E49B0069BB05 /* easy come.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "easy come.mp3"; sourceTree = "<group>"; };
+		F30B30FE24E9E49B0069BB05 /* you win im rich.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "you win im rich.mp3"; sourceTree = "<group>"; };
+		F30B30FF24E9E49B0069BB05 /* loose change.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "loose change.mp3"; sourceTree = "<group>"; };
+		F30B310824E9E5670069BB05 /* 35 bj.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "35 bj.mp3"; sourceTree = "<group>"; };
+		F30B310B24E9E5670069BB05 /* whitejack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whitejack.mp3; sourceTree = "<group>"; };
+		F30B310C24E9E5670069BB05 /* piss off.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "piss off.mp3"; sourceTree = "<group>"; };
+		F30B310E24E9E5670069BB05 /* can i say bj.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "can i say bj.mp3"; sourceTree = "<group>"; };
+		F30B311B24E9E6070069BB05 /* won again.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "won again.mp3"; sourceTree = "<group>"; };
+		F30B311C24E9E6070069BB05 /* leather.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = leather.mp3; sourceTree = "<group>"; };
+		F30B311E24E9E6070069BB05 /* my seat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "my seat.mp3"; sourceTree = "<group>"; };
+		F30B312024E9E6070069BB05 /* lost conc.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lost conc.mp3"; sourceTree = "<group>"; };
+		F30B312C24E9E6A80069BB05 /* stump up pb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "stump up pb.mp3"; sourceTree = "<group>"; };
+		F30B312D24E9E6A80069BB05 /* lose to donald.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lose to donald.mp3"; sourceTree = "<group>"; };
+		F30B312E24E9E6A80069BB05 /* rig it.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rig it.mp3"; sourceTree = "<group>"; };
+		F30B313124E9E6A80069BB05 /* hilarys hand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hilarys hand.mp3"; sourceTree = "<group>"; };
+		F30B313224E9E6A80069BB05 /* kings.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kings.mp3; sourceTree = "<group>"; };
+		F30B313324E9E6A80069BB05 /* beat ass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beat ass.mp3"; sourceTree = "<group>"; };
+		F33179C024897ED400EE0007 /* Blackjackk copy7.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Blackjackk copy7.entitlements"; sourceTree = "<group>"; };
+		F3556B4C24832C5200C640CB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F3556B4E24832C7900C640CB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		F3658A1724C9055B007395F1 /* playlistbj.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = playlistbj.mp3; path = "arnie bust/playlistbj.mp3"; sourceTree = "<group>"; };
+		F3661A5C24B78E2F001079BF /* musicplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicplayer.swift; sourceTree = "<group>"; };
+		F3661A5E24B7D8CD001079BF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F368244024EDBC13004A82AE /* move lips ah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "move lips ah.mp3"; path = "../../../../../../Desktop/sounds/move lips ah.mp3"; sourceTree = "<group>"; };
+		F368244124EDBC13004A82AE /* not whitejack da.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "not whitejack da.mp3"; sourceTree = "<group>"; };
+		F368244224EDBC13004A82AE /* whipped.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whipped.mp3; sourceTree = "<group>"; };
+		F368244324EDBC14004A82AE /* chicken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chicken.mp3; sourceTree = "<group>"; };
+		F368244424EDBC14004A82AE /* sarcasm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sarcasm.mp3; sourceTree = "<group>"; };
+		F368244524EDBC14004A82AE /* thick b.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "thick b.mp3"; sourceTree = "<group>"; };
+		F368244624EDBC14004A82AE /* mail order.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "mail order.mp3"; path = "../../../../../../Desktop/sounds/mail order.mp3"; sourceTree = "<group>"; };
+		F368244724EDBC14004A82AE /* russian.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = russian.mp3; sourceTree = "<group>"; };
+		F368244824EDBC14004A82AE /* crayon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = crayon.mp3; path = ../../../../../../Desktop/sounds/crayon.mp3; sourceTree = "<group>"; };
+		F368244924EDBC14004A82AE /* cheeto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cheeto.mp3; sourceTree = "<group>"; };
+		F368244A24EDBC14004A82AE /* looks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = looks.mp3; sourceTree = "<group>"; };
+		F368244B24EDBC14004A82AE /* d duck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "d duck.mp3"; sourceTree = "<group>"; };
+		F368244C24EDBC14004A82AE /* hooker.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hooker.mp3; sourceTree = "<group>"; };
+		F368244D24EDBC14004A82AE /* blow mouth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "blow mouth.mp3"; path = "../../../../../../Desktop/sounds/blow mouth.mp3"; sourceTree = "<group>"; };
+		F368244E24EDBC14004A82AE /* teeth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = teeth.mp3; path = ../../../../../../Desktop/sounds/teeth.mp3; sourceTree = "<group>"; };
+		F368244F24EDBC14004A82AE /* daddy money.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "daddy money.mp3"; sourceTree = "<group>"; };
+		F368245024EDBC14004A82AE /* ping pong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ping pong.mp3"; sourceTree = "<group>"; };
+		F368245124EDBC14004A82AE /* be back da.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "be back da.mp3"; sourceTree = "<group>"; };
+		F368245224EDBC14004A82AE /* knicks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = knicks.mp3; sourceTree = "<group>"; };
+		F368245324EDBC14004A82AE /* happy meal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "happy meal.mp3"; sourceTree = "<group>"; };
+		F368245424EDBC14004A82AE /* chunky ass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "chunky ass.mp3"; sourceTree = "<group>"; };
+		F38ABCBC2496DA4C0090078B /* silence2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silence2.mp3; sourceTree = "<group>"; };
+		F38ABCBE2496DA4C0090078B /* silence3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silence3.mp3; sourceTree = "<group>"; };
+		F38ABCC12496DA4D0090078B /* silence1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silence1.mp3; sourceTree = "<group>"; };
+		F3B952D52482DCB4000999C4 /* Blackjack in the House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blackjack in the House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B952D82482DCB4000999C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3B952DE2482DCB4000999C4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; tabWidth = 4; };
+		F3B952E32482DCB4000999C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3B952E52482DCB5000999C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3B952E82482DCB5000999C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3B952EA2482DCB5000999C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3C0DF0B2482E36F004AB4CD /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F3C0DF0C2482E36F004AB4CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3C0DF0E2482E36F004AB4CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3C0DF102482E36F004AB4CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3C0DF112482E36F004AB4CD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F3C0DF122482E36F004AB4CD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3C0DF132482E36F004AB4CD /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F3C0DF142482E36F004AB4CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3C0DF152482E36F004AB4CD /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		F3C0DF212482E5F5004AB4CD /* MoneyValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyValue.swift; sourceTree = "<group>"; };
+		F3C0DF222482E5F5004AB4CD /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		F3C0DF232482E5F5004AB4CD /* Hand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		F3C0DF252482E5F5004AB4CD /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		F3C0DF272482E5F5004AB4CD /* GenericPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericPlayer.swift; sourceTree = "<group>"; };
+		F3C0DF282482E5F5004AB4CD /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		F3C0DF292482E5F6004AB4CD /* Dealer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dealer.swift; sourceTree = "<group>"; };
+		F3C0DF2A2482E5F6004AB4CD /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		F3C0DF2B2482E5F6004AB4CD /* Bank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3B952D22482DCB4000999C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F30B30DA24E9E3400069BB05 /* arnie blackjack */ = {
+			isa = PBXGroup;
+			children = (
+				F30B30DC24E9E3400069BB05 /* my seat2.mp3 */,
+			);
+			path = "arnie blackjack";
+			sourceTree = "<group>";
+		};
+		F30B30E524E9E3C80069BB05 /* arnie bust */ = {
+			isa = PBXGroup;
+			children = (
+				F368245124EDBC14004A82AE /* be back da.mp3 */,
+				F368244D24EDBC14004A82AE /* blow mouth.mp3 */,
+				F368244924EDBC14004A82AE /* cheeto.mp3 */,
+				F368244324EDBC14004A82AE /* chicken.mp3 */,
+				F368245424EDBC14004A82AE /* chunky ass.mp3 */,
+				F368244824EDBC14004A82AE /* crayon.mp3 */,
+				F368244B24EDBC14004A82AE /* d duck.mp3 */,
+				F368244F24EDBC14004A82AE /* daddy money.mp3 */,
+				F368245324EDBC14004A82AE /* happy meal.mp3 */,
+				F368244C24EDBC14004A82AE /* hooker.mp3 */,
+				F368245224EDBC14004A82AE /* knicks.mp3 */,
+				F368244A24EDBC14004A82AE /* looks.mp3 */,
+				F368244624EDBC14004A82AE /* mail order.mp3 */,
+				F368244024EDBC13004A82AE /* move lips ah.mp3 */,
+				F368244124EDBC13004A82AE /* not whitejack da.mp3 */,
+				F368245024EDBC14004A82AE /* ping pong.mp3 */,
+				F368244724EDBC14004A82AE /* russian.mp3 */,
+				F368244424EDBC14004A82AE /* sarcasm.mp3 */,
+				F368244E24EDBC14004A82AE /* teeth.mp3 */,
+				F368244524EDBC14004A82AE /* thick b.mp3 */,
+				F368244224EDBC13004A82AE /* whipped.mp3 */,
+				F30B30E724E9E3C80069BB05 /* winning not.mp3 */,
+				F30B30E924E9E3C80069BB05 /* on the chin.mp3 */,
+				F30B30EB24E9E3C80069BB05 /* stupid.mp3 */,
+				F30B30EC24E9E3C80069BB05 /* food chain.mp3 */,
+				F30B30ED24E9E3C80069BB05 /* gooder.mp3 */,
+			);
+			path = "arnie bust";
+			sourceTree = "<group>";
+		};
+		F30B30F824E9E49B0069BB05 /* arnie win */ = {
+			isa = PBXGroup;
+			children = (
+				F30B30F924E9E49B0069BB05 /* lose better.mp3 */,
+				F30B30FA24E9E49B0069BB05 /* hilary desk.mp3 */,
+				F30B30FB24E9E49B0069BB05 /* not ripped.mp3 */,
+				F30B30FD24E9E49B0069BB05 /* easy come.mp3 */,
+				F30B30FE24E9E49B0069BB05 /* you win im rich.mp3 */,
+				F30B30FF24E9E49B0069BB05 /* loose change.mp3 */,
+			);
+			path = "arnie win";
+			sourceTree = "<group>";
+		};
+		F30B310724E9E5670069BB05 /* trump blackjack */ = {
+			isa = PBXGroup;
+			children = (
+				F30B310824E9E5670069BB05 /* 35 bj.mp3 */,
+				F30B310B24E9E5670069BB05 /* whitejack.mp3 */,
+				F30B310C24E9E5670069BB05 /* piss off.mp3 */,
+				F30B310E24E9E5670069BB05 /* can i say bj.mp3 */,
+			);
+			path = "trump blackjack";
+			sourceTree = "<group>";
+		};
+		F30B311824E9E6070069BB05 /* trump bust */ = {
+			isa = PBXGroup;
+			children = (
+				F30B311B24E9E6070069BB05 /* won again.mp3 */,
+				F30B311C24E9E6070069BB05 /* leather.mp3 */,
+				F30B311E24E9E6070069BB05 /* my seat.mp3 */,
+				F30B312024E9E6070069BB05 /* lost conc.mp3 */,
+			);
+			path = "trump bust";
+			sourceTree = "<group>";
+		};
+		F30B312B24E9E6A80069BB05 /* trump win */ = {
+			isa = PBXGroup;
+			children = (
+				F30B312C24E9E6A80069BB05 /* stump up pb.mp3 */,
+				F30B312D24E9E6A80069BB05 /* lose to donald.mp3 */,
+				F30B312E24E9E6A80069BB05 /* rig it.mp3 */,
+				F30B313124E9E6A80069BB05 /* hilarys hand.mp3 */,
+				F30B313224E9E6A80069BB05 /* kings.mp3 */,
+				F30B313324E9E6A80069BB05 /* beat ass.mp3 */,
+			);
+			path = "trump win";
+			sourceTree = "<group>";
+		};
+		F39FC159249AE218007397E5 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F30B312B24E9E6A80069BB05 /* trump win */,
+				F30B311824E9E6070069BB05 /* trump bust */,
+				F30B310724E9E5670069BB05 /* trump blackjack */,
+				F30B30F824E9E49B0069BB05 /* arnie win */,
+				F30B30DA24E9E3400069BB05 /* arnie blackjack */,
+				F30B30E524E9E3C80069BB05 /* arnie bust */,
+				F38ABCC12496DA4D0090078B /* silence1.mp3 */,
+				F38ABCBC2496DA4C0090078B /* silence2.mp3 */,
+				F38ABCBE2496DA4C0090078B /* silence3.mp3 */,
+				F3658A1724C9055B007395F1 /* playlistbj.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		F3B952CC2482DCB4000999C4 = {
+			isa = PBXGroup;
+			children = (
+				F3661A5E24B7D8CD001079BF /* Default-568h@2x.png */,
+				F33179C024897ED400EE0007 /* Blackjackk copy7.entitlements */,
+				F3C0DF2B2482E5F6004AB4CD /* Bank.swift */,
+				F3C0DF282482E5F5004AB4CD /* Card.swift */,
+				F3C0DF292482E5F6004AB4CD /* Dealer.swift */,
+				F3C0DF222482E5F5004AB4CD /* Deck.swift */,
+				F3C0DF272482E5F5004AB4CD /* GenericPlayer.swift */,
+				F3C0DF232482E5F5004AB4CD /* Hand.swift */,
+				F3C0DF212482E5F5004AB4CD /* MoneyValue.swift */,
+				F3661A5C24B78E2F001079BF /* musicplayer.swift */,
+				F3C0DF2A2482E5F6004AB4CD /* Player.swift */,
+				F3C0DF252482E5F5004AB4CD /* Utilities.swift */,
+				F3B952D72482DCB4000999C4 /* Blackjackk */,
+				F3B952D62482DCB4000999C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3B952D62482DCB4000999C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3B952D52482DCB4000999C4 /* Blackjack in the House.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3B952D72482DCB4000999C4 /* Blackjackk */ = {
+			isa = PBXGroup;
+			children = (
+				F3C0DF092482E36F004AB4CD /* Blackjackk */,
+				F3B952D82482DCB4000999C4 /* AppDelegate.swift */,
+				F3B952DE2482DCB4000999C4 /* GameScene.swift */,
+				F3556B4E24832C7900C640CB /* Actions.sks */,
+				F3556B4C24832C5200C640CB /* GameScene.sks */,
+				F3B952E22482DCB4000999C4 /* Main.storyboard */,
+				F3B952E52482DCB5000999C4 /* Assets.xcassets */,
+				F3B952E72482DCB5000999C4 /* LaunchScreen.storyboard */,
+				F3B952EA2482DCB5000999C4 /* Info.plist */,
+				F39FC159249AE218007397E5 /* sounds */,
+			);
+			path = Blackjackk;
+			sourceTree = "<group>";
+		};
+		F3C0DF092482E36F004AB4CD /* Blackjackk */ = {
+			isa = PBXGroup;
+			children = (
+				F3C0DF0B2482E36F004AB4CD /* GameViewController.swift */,
+				F3C0DF112482E36F004AB4CD /* GameScene.sks */,
+				F3C0DF132482E36F004AB4CD /* GameScene.swift */,
+				F3C0DF0C2482E36F004AB4CD /* Assets.xcassets */,
+				F3C0DF0D2482E36F004AB4CD /* LaunchScreen.storyboard */,
+				F3C0DF0F2482E36F004AB4CD /* Main.storyboard */,
+				F3C0DF122482E36F004AB4CD /* AppDelegate.swift */,
+				F3C0DF142482E36F004AB4CD /* Info.plist */,
+				F3C0DF152482E36F004AB4CD /* Actions.sks */,
+			);
+			name = Blackjackk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3B952D42482DCB4000999C4 /* Blackjack in the House */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B952ED2482DCB5000999C4 /* Build configuration list for PBXNativeTarget "Blackjack in the House" */;
+			buildPhases = (
+				F3B952D12482DCB4000999C4 /* Sources */,
+				F3B952D22482DCB4000999C4 /* Frameworks */,
+				F3B952D32482DCB4000999C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blackjack in the House";
+			productName = Blackjackk;
+			productReference = F3B952D52482DCB4000999C4 /* Blackjack in the House.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3B952CD2482DCB4000999C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = Badgerstreak;
+				TargetAttributes = {
+					F3B952D42482DCB4000999C4 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F3B952D02482DCB4000999C4 /* Build configuration list for PBXProject "Blackjack in the House" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3B952CC2482DCB4000999C4;
+			productRefGroup = F3B952D62482DCB4000999C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3B952D42482DCB4000999C4 /* Blackjack in the House */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3B952D32482DCB4000999C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30B312524E9E6070069BB05 /* leather.mp3 in Resources */,
+				F368245624EDBC14004A82AE /* not whitejack da.mp3 in Resources */,
+				F368245824EDBC14004A82AE /* chicken.mp3 in Resources */,
+				F368245724EDBC14004A82AE /* whipped.mp3 in Resources */,
+				F38ABCC92496DA4D0090078B /* silence2.mp3 in Resources */,
+				F368245524EDBC14004A82AE /* move lips ah.mp3 in Resources */,
+				F30B310424E9E49B0069BB05 /* easy come.mp3 in Resources */,
+				F368245B24EDBC14004A82AE /* mail order.mp3 in Resources */,
+				F3B952E42482DCB4000999C4 /* Main.storyboard in Resources */,
+				F30B30F424E9E3C80069BB05 /* stupid.mp3 in Resources */,
+				F30B311324E9E5670069BB05 /* whitejack.mp3 in Resources */,
+				F30B312724E9E6070069BB05 /* my seat.mp3 in Resources */,
+				F368246624EDBC14004A82AE /* be back da.mp3 in Resources */,
+				F368245924EDBC14004A82AE /* sarcasm.mp3 in Resources */,
+				F368246024EDBC14004A82AE /* d duck.mp3 in Resources */,
+				F30B30E124E9E3400069BB05 /* my seat2.mp3 in Resources */,
+				F368246224EDBC14004A82AE /* blow mouth.mp3 in Resources */,
+				F30B311424E9E5670069BB05 /* piss off.mp3 in Resources */,
+				F368246324EDBC14004A82AE /* teeth.mp3 in Resources */,
+				F30B30F624E9E3C80069BB05 /* gooder.mp3 in Resources */,
+				F3556B4F24832C7900C640CB /* Actions.sks in Resources */,
+				F368246124EDBC14004A82AE /* hooker.mp3 in Resources */,
+				F38ABCCB2496DA4D0090078B /* silence3.mp3 in Resources */,
+				F3C0DF192482E36F004AB4CD /* LaunchScreen.storyboard in Resources */,
+				F30B313A24E9E6A80069BB05 /* hilarys hand.mp3 in Resources */,
+				F368245D24EDBC14004A82AE /* crayon.mp3 in Resources */,
+				F30B311024E9E5670069BB05 /* 35 bj.mp3 in Resources */,
+				F368246924EDBC14004A82AE /* chunky ass.mp3 in Resources */,
+				F3C0DF182482E36F004AB4CD /* Assets.xcassets in Resources */,
+				F30B310124E9E49B0069BB05 /* hilary desk.mp3 in Resources */,
+				F30B310524E9E49B0069BB05 /* you win im rich.mp3 in Resources */,
+				F368245C24EDBC14004A82AE /* russian.mp3 in Resources */,
+				F30B310024E9E49B0069BB05 /* lose better.mp3 in Resources */,
+				F3658A1824C9055B007395F1 /* playlistbj.mp3 in Resources */,
+				F30B313724E9E6A80069BB05 /* rig it.mp3 in Resources */,
+				F30B310224E9E49B0069BB05 /* not ripped.mp3 in Resources */,
+				F30B313C24E9E6A80069BB05 /* beat ass.mp3 in Resources */,
+				F368245F24EDBC14004A82AE /* looks.mp3 in Resources */,
+				F30B313624E9E6A80069BB05 /* lose to donald.mp3 in Resources */,
+				F3C0DF1B2482E36F004AB4CD /* GameScene.sks in Resources */,
+				F30B310624E9E49B0069BB05 /* loose change.mp3 in Resources */,
+				F368246824EDBC14004A82AE /* happy meal.mp3 in Resources */,
+				F368245E24EDBC14004A82AE /* cheeto.mp3 in Resources */,
+				F30B30F024E9E3C80069BB05 /* winning not.mp3 in Resources */,
+				F30B30F524E9E3C80069BB05 /* food chain.mp3 in Resources */,
+				F368246724EDBC14004A82AE /* knicks.mp3 in Resources */,
+				F3C0DF1A2482E36F004AB4CD /* Main.storyboard in Resources */,
+				F30B312424E9E6070069BB05 /* won again.mp3 in Resources */,
+				F38ABCCE2496DA4D0090078B /* silence1.mp3 in Resources */,
+				F30B30F224E9E3C80069BB05 /* on the chin.mp3 in Resources */,
+				F30B311624E9E5670069BB05 /* can i say bj.mp3 in Resources */,
+				F30B312924E9E6070069BB05 /* lost conc.mp3 in Resources */,
+				F368245A24EDBC14004A82AE /* thick b.mp3 in Resources */,
+				F368246424EDBC14004A82AE /* daddy money.mp3 in Resources */,
+				F3661A5F24B7D8CD001079BF /* Default-568h@2x.png in Resources */,
+				F30B313B24E9E6A80069BB05 /* kings.mp3 in Resources */,
+				F30B313524E9E6A80069BB05 /* stump up pb.mp3 in Resources */,
+				F368246524EDBC14004A82AE /* ping pong.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3B952D12482DCB4000999C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C0DF1D2482E36F004AB4CD /* GameScene.swift in Sources */,
+				F3C0DF172482E36F004AB4CD /* GameViewController.swift in Sources */,
+				F3C0DF302482E5F6004AB4CD /* Utilities.swift in Sources */,
+				F3C0DF352482E5F6004AB4CD /* Player.swift in Sources */,
+				F3C0DF2C2482E5F6004AB4CD /* MoneyValue.swift in Sources */,
+				F3C0DF322482E5F6004AB4CD /* GenericPlayer.swift in Sources */,
+				F3661A5D24B78E2F001079BF /* musicplayer.swift in Sources */,
+				F3C0DF2D2482E5F6004AB4CD /* Deck.swift in Sources */,
+				F3C0DF342482E5F6004AB4CD /* Dealer.swift in Sources */,
+				F3C0DF332482E5F6004AB4CD /* Card.swift in Sources */,
+				F3C0DF2E2482E5F6004AB4CD /* Hand.swift in Sources */,
+				F3C0DF1C2482E36F004AB4CD /* AppDelegate.swift in Sources */,
+				F3C0DF362482E5F6004AB4CD /* Bank.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3B952E22482DCB4000999C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B952E32482DCB4000999C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3B952E72482DCB5000999C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B952E82482DCB5000999C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F3C0DF0D2482E36F004AB4CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3C0DF0E2482E36F004AB4CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F3C0DF0F2482E36F004AB4CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3C0DF102482E36F004AB4CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3B952EB2482DCB5000999C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3B952EC2482DCB5000999C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3B952EE2482DCB5000999C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Blackjackk copy7.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KBM8CV9QZU;
+				INFOPLIST_FILE = "$(SRCROOT)/Blackjackk/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.badgerstreak.Blackjackinthehouse;
+				PRODUCT_NAME = "Blackjack in the House";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3B952EF2482DCB5000999C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Blackjackk copy7.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KBM8CV9QZU;
+				INFOPLIST_FILE = "$(SRCROOT)/Blackjackk/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.badgerstreak.Blackjackinthehouse;
+				PRODUCT_NAME = "Blackjack in the House";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3B952D02482DCB4000999C4 /* Build configuration list for PBXProject "Blackjack in the House" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B952EB2482DCB5000999C4 /* Debug */,
+				F3B952EC2482DCB5000999C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B952ED2482DCB5000999C4 /* Build configuration list for PBXNativeTarget "Blackjack in the House" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B952EE2482DCB5000999C4 /* Debug */,
+				F3B952EF2482DCB5000999C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3B952CD2482DCB4000999C4 /* Project object */;
+}
