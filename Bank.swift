@@ -12,6 +12,7 @@ import SpriteKit
 import AVFoundation
 
 
+
 class Bank {
     var balance = 500
     let funds = SKLabelNode(fontNamed: "AvenirNext-Bold")//NEWCODE4

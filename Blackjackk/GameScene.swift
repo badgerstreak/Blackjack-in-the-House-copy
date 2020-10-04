@@ -1,13 +1,12 @@
 //
 //  GameScene.swift
-//  Blackjackk
+//  Blackjack in the house
 //
 //  Created by Joe Curran on 30/05/2020.
 //  Copyright © 2020 Badgerstreak. All rights reserved.
 //
 
-import SpriteKit
-                                                                  
+import SpriteKit                                                                  
 import AVFoundation
 import Foundation
 
@@ -15,36 +14,6 @@ var audioPlayer:AVAudioPlayer?
 var button:UIButton!
 var bgplayer:AVAudioPlayer?
 
-enum TableType: String {
-    case ovaloffice
-    case austin
-    case bond
-}
-extension TableType {
-    static func `for`(playerScore: Int) -> TableType {
-        switch playerScore {
-        case 0...5:
-            return .ovaloffice
-        case 6...10:
-            return .austin
-        default:
-            return .bond
-        }
-    }
-    var imageName: String {rawValue}
-  }
-
-var tableType: TableType = .ovaloffice
-var playerScore = 0 {
-    didSet(newScore) {
-        let newTableType = TableType.for(playerScore: newScore)
-        //Call `replaceTable()` only on `tableType` did change
-        if tableType != newTableType {
-            tableType = newTableType
-            
-        }
-    }
-}
 
 class GameScene: SKScene {
     let moneyContainer = SKSpriteNode(color: .clear, size: CGSize(width:250, height: 150))
@@ -55,21 +24,17 @@ class GameScene: SKScene {
     let player1 = Player(hand: Hand(),bank: Bank())
     let dealer = Dealer(hand: Hand())
     var allCards = [Card]()
-    let dealerCardsY = 830 // Y position of dealer cards was 930
-    let playerCardsY = 200 // Y position of player cards
-    //let playerCardsX = 300  // new x
-    //let dealerCardsX = 300  // new x
+    let dealerCardsY = 830
+    let playerCardsY = 200
     var currentPlayerType:GenericPlayer = Player(hand: Hand(),bank: Bank())
     var playerYields = false
     let deck = Deck()
     let musicPlayer = MusicPlayer()
-   // let musicPlayer = MusicPlayer()
-  //  var playerScore = 0
+    var playerScore = 0
     let playerLabel = SKLabelNode(fontNamed: "AvenirNext-Bold")
     var dealSscore = 0
     let dealerLabel = SKLabelNode(fontNamed: "AvenirNext-Bold")
-
-    //var table = SKSpriteNode(imageNamed: "")
+    let table = SKSpriteNode(imageNamed: "ovaloffice")
     var currentTable: SKSpriteNode?
     let playerBlackjackSounds = ["looks", "my seat2", "knicks", "daddy money", "cheeto", "whipped"]
     let playerBustSounds = ["mail order", "winning not", "crayon", "on the chin", "move lips ah", "stupid", "food chain", "gooder", "teeth"]
@@ -97,19 +62,18 @@ class GameScene: SKScene {
     
     func setupTable(){
        
-         //   addChild(table)
-         //   table.position = CGPoint(x: size.width/2, y: size.height/2)
-         //   table.zPosition = -1
+            addChild(table)
+            table.position = CGPoint(x: size.width/2, y: size.height/2)
+            table.zPosition = -1
         
-        replaceTable()
         
         addChild(moneyContainer)
         moneyContainer.anchorPoint = CGPoint(x:0, y:0)
         moneyContainer.position = CGPoint(x:size.width/2 - 125, y:size.height/2)
-        instructionText.fontColor = UIColor.red       //UIColor.black
-        instructionText.fontName = "AvenirNext-Bold"                     //new code
+        instructionText.fontColor = UIColor.red
+        instructionText.fontName = "AvenirNext-Bold"
         addChild(instructionText)
-        instructionText.position = CGPoint(x: size.width/2, y: 400)  //(x: size.width/2, y: 400)
+        instructionText.position = CGPoint(x: size.width/2, y: 400)  
         deck.new()
        
        
@@ -133,38 +97,6 @@ class GameScene: SKScene {
     
   
     
-    
-    
-    
-    func replaceTable(){
-        
-        if let table = currentTable{
-            table.removeFromParent()
-            currentTable = nil
-        }
-        let table = SKSpriteNode(imageNamed: tableType.imageName)
-        addChild(table)
-        table.position = CGPoint(x: size.width/2, y: size.height/2)
-        //   table.zPosition = -1
-  /*      switch tableType {
-        case .ovaloffice:
-            //...
-            break
-        case .austin:
-            //...
-            break
-        case .bond:
-            //...
-            break
-       */
-        
-    }
-    
-    
-    
-    
-    
-    
   func addPlayerScore() {
       
       playerScore += 1
@@ -183,21 +115,21 @@ class GameScene: SKScene {
         addChild(dealBtn)
         dealBtn.color = .red
         dealBtn.colorBlendFactor = 0.4
-        dealBtn.position = CGPoint(x:250, y:40)  // x was300 cng to 250
+        dealBtn.position = CGPoint(x:250, y:40)
         
         
         hitBtn.name = "hitBtn"
         addChild(hitBtn)
         hitBtn.color = .white
         hitBtn.colorBlendFactor = 0.4
-        hitBtn.position = CGPoint(x:375, y:40)    // x was 450 chg to 375
+        hitBtn.position = CGPoint(x:375, y:40)
         hitBtn.isHidden = true
         
         standBtn.name = "standBtn"
         addChild(standBtn)
         hitBtn.color = .white
         hitBtn.colorBlendFactor = 0.4
-        standBtn.position = CGPoint(x:525, y:40)      // x was 600 chg to 525
+        standBtn.position = CGPoint(x:525, y:40)
         standBtn.isHidden = true
     
         button = UIButton()
@@ -228,7 +160,7 @@ class GameScene: SKScene {
                 if #available(iOS 10.0, *) {
                     try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default, options: [.mixWithOthers])
                 } else {
-                    // Fallback on earlier versions
+                    
                 }
                 print("Playback ok")
                 try AVAudioSession.sharedInstance().setActive(true)
@@ -289,7 +221,7 @@ class GameScene: SKScene {
         standBtn.isHidden = false
         hitBtn.isHidden = false
         let tempCard = Card(suit: "card_front", value: 0)
-        tempCard.position = CGPoint(x:630, y:980)  // x was 630
+        tempCard.position = CGPoint(x:630, y:980)
         addChild(tempCard)
         tempCard.zPosition = 100
         
@@ -306,7 +238,7 @@ class GameScene: SKScene {
         }
         
         whichHand.addCard(card: newCard)
-        let xPos = 250 + (whichHand.getLength()*35)     //was 50 cng to 250
+        let xPos = 250 + (whichHand.getLength()*35)
         let moveCard = SKAction.move(to: CGPoint(x:xPos, y: whichPosition),duration: 1.0)
         tempCard.run(moveCard, completion: { [unowned self] in
             self.player1.setCanBet(canBet: true)
@@ -378,7 +310,6 @@ class GameScene: SKScene {
                 moveMoneyContainer(position: playerCardsY)
                 //player blackjack array
                 playRandomSound(sounds: playerBlackjackSounds)
-                                                               //    soundArrayPlayerBlackjack()
                 addPlayerScore()
             }
             
@@ -389,7 +320,6 @@ class GameScene: SKScene {
                 instructionText.text = "Dealer got BlackJack!";
                 moveMoneyContainer(position: dealerCardsY)
                 playRandomSound(sounds: dealerBlackjackSounds)
-                                                           //      soundArrayDealerBlackjack()
                 addDealerScore()
             }
             
@@ -404,7 +334,6 @@ class GameScene: SKScene {
             winner = dealer
              // playerbust array here
             playRandomSound(sounds: playerBustSounds)
-                                                            //       soundArrayPlayerBust()
             addDealerScore()
             }
         
@@ -416,7 +345,6 @@ class GameScene: SKScene {
             
             //dealer bust array
             playRandomSound(sounds: dealerBustSounds)
-                                                 //      soundArrayDealerBust()
             addPlayerScore()
             
         }else if (dealer.hand.getValue() > player1.hand.getValue()){
@@ -426,7 +354,6 @@ class GameScene: SKScene {
             winner = dealer
             //player lose array
             playRandomSound(sounds: playerLoseSounds)
-                                                   //     soundArrayPlayerLose()
             addDealerScore()
             
         }
@@ -438,8 +365,6 @@ class GameScene: SKScene {
             winner = dealer
             //tie array func
             playRandomSound(sounds: arrayTieSounds)
-                                                         //     soundArraytie()
-                    
             addDealerScore()
         }
         
@@ -451,8 +376,6 @@ class GameScene: SKScene {
             winner = player1
             //dealer lose array
             playRandomSound(sounds: dealerLoseSounds)
-                                                  //   soundArrayDealerLose()
-                                                                   
             addPlayerScore()
         }
         
@@ -471,6 +394,8 @@ class GameScene: SKScene {
             self.resetMoneyContainer()
         });
     }
+    
+    
     
     func resetMoneyContainer(){
         //Remove all card from coin container
@@ -520,7 +445,7 @@ class GameScene: SKScene {
        // stickSoundArray()
     }
     
-    
+    //  calll using     playRandomSound(sounds: dealerBlackJackSounds)
     func playRandomSound(sounds: [String]){
          guard let sound = sounds.randomElement(),
              let soundURL = Bundle.main.url(forResource: sound, withExtension: "mp3") else { return }
@@ -534,19 +459,80 @@ class GameScene: SKScene {
 
          audioPlayer?.play()
         
-        
-        
-    
-    
-    //  calll using          playRandomSound(sounds: dealerBlackJackSounds)
     
     }
     
     
+    
+    
+    
   /*
+   
+    //the following enum was used to change the background but I could not get it to work. I have set the points 0 to 5, 6 to 10 etc instead of 20 and 40 so using the simulator would be easier to check if the code worked.
+     
+     enum TableType: String {
+         case ovaloffice
+         case austin
+         case bond
+     }
+     extension TableType {
+         static func `for`(playerScore: Int) -> TableType {
+             switch playerScore {
+             case 0...5:
+                 return .ovaloffice
+             case 6...10:
+                 return .austin
+             default:
+                 return .bond
+             }
+         }
+         var imageName: String {rawValue}
+       }
+
+     var tableType: TableType = .ovaloffice
+     var playerScore = 0 {
+         didSet(newScore) {
+             let newTableType = TableType.for(playerScore: newScore)
+             //Call `replaceTable()` only on `tableType` did change
+             if tableType != newTableType {
+                 tableType = newTableType
+                 
+             }
+         }
+     }
+
+     
+     
+     //the following function was used to try to get the table to change but I could not get it to work
+     
+     func replaceTable(){
+            
+            if let table = currentTable{
+                table.removeFromParent()
+                currentTable = nil
+            }
+            let table = SKSpriteNode(imageNamed: tableType.imageName)
+            addChild(table)
+            table.position = CGPoint(x: size.width/2, y: size.height/2)
+            //   table.zPosition = -1
+            switch tableType {
+            case .ovaloffice:
+                //...
+                break
+            case .austin:
+                //...
+                break
+            case .bond:
+                //...
+                break
+     
     
     
-    
+     
+     
+     //casino chips func had to be removed because Apple dont allow even simulated gambling unless the developer is a registered company, it was replaced by a score function.
+     
+     
     func casinoChips(){
      let url = Bundle.main.url(forResource: "chips", withExtension: "mp3")
         //make sure that we have the url, otherwise abort
@@ -561,7 +547,7 @@ class GameScene: SKScene {
    
 
   
-   
+   //sounds were tpp repetative , removed at this stage. 
     
     
     func hitArray(){
@@ -598,13 +584,7 @@ class GameScene: SKScene {
              print(error)
          }
 
-         audioPlayer?.play()}
-    
-     
-     
-     
-     
-     
+         audioPlayer?.play()
      
      
     */
