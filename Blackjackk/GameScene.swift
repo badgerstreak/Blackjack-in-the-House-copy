@@ -70,10 +70,10 @@ class GameScene: SKScene {
         addChild(moneyContainer)
         moneyContainer.anchorPoint = CGPoint(x:0, y:0)
         moneyContainer.position = CGPoint(x:size.width/2 - 125, y:size.height/2)
-        instructionText.fontColor = UIColor.red       //UIColor.black
-        instructionText.fontName = "AvenirNext-Bold"                     //new code
+        instructionText.fontColor = UIColor.red
+        instructionText.fontName = "AvenirNext-Bold"
         addChild(instructionText)
-        instructionText.position = CGPoint(x: size.width/2, y: 400)  //(x: size.width/2, y: 400)
+        instructionText.position = CGPoint(x: size.width/2, y: 400)  
         deck.new()
        
        
