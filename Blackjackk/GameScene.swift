@@ -15,36 +15,6 @@ var audioPlayer:AVAudioPlayer?
 var button:UIButton!
 var bgplayer:AVAudioPlayer?
 
-enum TableType: String {
-    case ovaloffice
-    case austin
-    case bond
-}
-extension TableType {
-    static func `for`(playerScore: Int) -> TableType {
-        switch playerScore {
-        case 0...5:
-            return .ovaloffice
-        case 6...10:
-            return .austin
-        default:
-            return .bond
-        }
-    }
-    var imageName: String {rawValue}
-  }
-
-var tableType: TableType = .ovaloffice
-var playerScore = 0 {
-    didSet(newScore) {
-        let newTableType = TableType.for(playerScore: newScore)
-        //Call `replaceTable()` only on `tableType` did change
-        if tableType != newTableType {
-            tableType = newTableType
-            
-        }
-    }
-}
 
 class GameScene: SKScene {
     let moneyContainer = SKSpriteNode(color: .clear, size: CGSize(width:250, height: 150))
@@ -64,12 +34,12 @@ class GameScene: SKScene {
     let deck = Deck()
     let musicPlayer = MusicPlayer()
    // let musicPlayer = MusicPlayer()
-  //  var playerScore = 0
+    var playerScore = 0
     let playerLabel = SKLabelNode(fontNamed: "AvenirNext-Bold")
     var dealSscore = 0
     let dealerLabel = SKLabelNode(fontNamed: "AvenirNext-Bold")
 
-    //var table = SKSpriteNode(imageNamed: "")
+    let table = SKSpriteNode(imageNamed: "ovaloffice")
     var currentTable: SKSpriteNode?
     let playerBlackjackSounds = ["looks", "my seat2", "knicks", "daddy money", "cheeto", "whipped"]
     let playerBustSounds = ["mail order", "winning not", "crayon", "on the chin", "move lips ah", "stupid", "food chain", "gooder", "teeth"]
@@ -97,11 +67,11 @@ class GameScene: SKScene {
     
     func setupTable(){
        
-         //   addChild(table)
-         //   table.position = CGPoint(x: size.width/2, y: size.height/2)
-         //   table.zPosition = -1
+            addChild(table)
+            table.position = CGPoint(x: size.width/2, y: size.height/2)
+            table.zPosition = -1
         
-        replaceTable()
+       // replaceTable()
         
         addChild(moneyContainer)
         moneyContainer.anchorPoint = CGPoint(x:0, y:0)
@@ -132,38 +102,6 @@ class GameScene: SKScene {
     }
     
   
-    
-    
-    
-    
-    func replaceTable(){
-        
-        if let table = currentTable{
-            table.removeFromParent()
-            currentTable = nil
-        }
-        let table = SKSpriteNode(imageNamed: tableType.imageName)
-        addChild(table)
-        table.position = CGPoint(x: size.width/2, y: size.height/2)
-        //   table.zPosition = -1
-  /*      switch tableType {
-        case .ovaloffice:
-            //...
-            break
-        case .austin:
-            //...
-            break
-        case .bond:
-            //...
-            break
-       */
-        
-    }
-    
-    
-    
-    
-    
     
   func addPlayerScore() {
       
@@ -520,7 +458,7 @@ class GameScene: SKScene {
        // stickSoundArray()
     }
     
-    
+    //  calll using          playRandomSound(sounds: dealerBlackJackSounds)
     func playRandomSound(sounds: [String]){
          guard let sound = sounds.randomElement(),
              let soundURL = Bundle.main.url(forResource: sound, withExtension: "mp3") else { return }
@@ -538,15 +476,78 @@ class GameScene: SKScene {
         
     
     
-    //  calll using          playRandomSound(sounds: dealerBlackJackSounds)
+    
     
     }
     
     
   /*
+   
+    //the following enum was used to change the background but I could not get it to work. I have set the points 0 to 5, 6 to 10 etc instead of 20 and 40 so using the simulator would be easier to check if the code worked.
+     
+     enum TableType: String {
+         case ovaloffice
+         case austin
+         case bond
+     }
+     extension TableType {
+         static func `for`(playerScore: Int) -> TableType {
+             switch playerScore {
+             case 0...5:
+                 return .ovaloffice
+             case 6...10:
+                 return .austin
+             default:
+                 return .bond
+             }
+         }
+         var imageName: String {rawValue}
+       }
+
+     var tableType: TableType = .ovaloffice
+     var playerScore = 0 {
+         didSet(newScore) {
+             let newTableType = TableType.for(playerScore: newScore)
+             //Call `replaceTable()` only on `tableType` did change
+             if tableType != newTableType {
+                 tableType = newTableType
+                 
+             }
+         }
+     }
+
+     
+     
+     //the following function was used to try to get the table to change but I could not get it to work
+     
+     func replaceTable(){
+            
+            if let table = currentTable{
+                table.removeFromParent()
+                currentTable = nil
+            }
+            let table = SKSpriteNode(imageNamed: tableType.imageName)
+            addChild(table)
+            table.position = CGPoint(x: size.width/2, y: size.height/2)
+            //   table.zPosition = -1
+            switch tableType {
+            case .ovaloffice:
+                //...
+                break
+            case .austin:
+                //...
+                break
+            case .bond:
+                //...
+                break
+     
     
     
-    
+     
+     
+     //casino chips func had to be removed because Apple dont allow even simulated gambling unless the developer is a registered company, it was replaced by a score function.
+     
+     
     func casinoChips(){
      let url = Bundle.main.url(forResource: "chips", withExtension: "mp3")
         //make sure that we have the url, otherwise abort
@@ -561,7 +562,7 @@ class GameScene: SKScene {
    
 
   
-   
+   //sounds were tpp repetative , removed at this stage. 
     
     
     func hitArray(){
@@ -598,13 +599,7 @@ class GameScene: SKScene {
              print(error)
          }
 
-         audioPlayer?.play()}
-    
-     
-     
-     
-     
-     
+         audioPlayer?.play()
      
      
     */
