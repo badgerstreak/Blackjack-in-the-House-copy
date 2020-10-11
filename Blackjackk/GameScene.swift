@@ -36,6 +36,7 @@ class GameScene: SKScene {
     let dealerLabel = SKLabelNode(fontNamed: "AvenirNext-Bold")
     let table = SKSpriteNode(imageNamed: "ovaloffice")
     var currentTable: SKSpriteNode?
+    //the following sound arrays will play up to 19 points on player score
     let playerBlackjackSounds = ["looks", "my seat2", "knicks", "daddy money", "cheeto", "whipped"]
     let playerBustSounds = ["mail order", "winning not", "crayon", "on the chin", "move lips ah", "stupid", "food chain", "gooder", "teeth"]
     let dealerBlackjackSounds = ["35 bj", "ping pong", "whitejack", "piss off", "chicken", "can i say", "not whitejack", "blow mouth"]
@@ -43,7 +44,15 @@ class GameScene: SKScene {
     let playerLoseSounds = ["stump up pb", "lose to donald", "rig it", "sarcasm", "hooker", "hilarys hand", "kings", "beat ass", "happy meal"]
     let dealerBustSounds = ["be back da", "won again", "leather", "thick b", "my seat", "d duck", "lost conc", "russian"]
     let dealerLoseSounds = ["lose better", "hilary desk", "not ripped", "chunky ass", "easy come", "you win im rich", "loose change", "whipped"]
-    
+    //the following sound arrays will play 20 to 39 points on player score
+    let austinbjsounds = ["69", "shagjack", "big blackjack", "shagjack again", "shagadelic", "batman", "groovy"]
+    let austinBustSounds = ["bust come on", "bust dam it", "dick move", "grater", "fook me not again", "come on", "not again", "fookme", "oops"]
+    let austinWinSounds = ["mojo right", "shaguar", "mojo back", "yeah baby", "masterdebater", "not bad", "bad hair day"]
+    let evilBjSounds = ["gotta hurt", "not cool hate it", "bj fook me", "bj not again", "hand pick", "fookme not agn"]
+    let evilBustSounds = ["way i like", "bust baby", "good+bad", "fare", "win some", "hurt toots"]
+    let evilWinsSounds = ["mojo hit baby", "wintiny", "dealer wins", "woah", "bruised mojo"]
+    let tieSounds = ["low blow", "tie d wins", "def not cool", "behave", "tennis"]
+    //there will be further sounds and characters being 40 to 59 and so on. Each time the characters  change the background will change also.
     
     
     
@@ -53,12 +62,38 @@ class GameScene: SKScene {
         currentPlayerType = player1
         //musicPlayer.startBackgroundMusic(sound: "playlistbj", type: "mp3")
         didTapButton()
+      
         }
     
     
     
-    
-    
+    //when the following funtionis uncommented I get an error tableType not in scope
+ /*   func replaceTable() {
+            //You need to remove existing `table` before adding new one
+            if let table = currentTable {
+                table.removeFromParent()
+                currentTable = nil
+            }
+         let table = SKSpriteNode(imageNamed: tableType.imageName)
+            addChild(table)
+            table.position = CGPoint(x: size.width/2, y: size.height/2)
+            table.zPosition = -1
+        
+        switch tableType {
+                case .ovaloffice:
+                    //...
+                    break
+                case .austin:
+                    //...
+                    break
+                case .bond:
+                    //...
+                    break
+        case .bond: break
+            
+        }
+    }
+    */
     
     func setupTable(){
        
@@ -66,6 +101,7 @@ class GameScene: SKScene {
             table.position = CGPoint(x: size.width/2, y: size.height/2)
             table.zPosition = -1
         
+      //  replaceTable()
         
         addChild(moneyContainer)
         moneyContainer.anchorPoint = CGPoint(x:0, y:0)
@@ -101,6 +137,20 @@ class GameScene: SKScene {
       
       playerScore += 1
       playerLabel.text = "Arnie: \(playerScore)"
+    
+    var tableType: TableType = .ovaloffice
+    var playerScore = 0 {
+        didSet(newScore) {
+            let newTableType = TableType.for(playerScore: newScore)
+            
+            //Call `replaceTable()` only on `tableType` did change
+            if tableType != newTableType {
+                tableType = newTableType
+                
+            }
+        }
+    }
+    
   }
       
       func addDealerScore(){
@@ -446,6 +496,8 @@ class GameScene: SKScene {
     }
     
     //  calll using     playRandomSound(sounds: dealerBlackJackSounds)
+    
+    // i think the change in characters will go inside this function, arrays within arrays if there is such a thing.
     func playRandomSound(sounds: [String]){
          guard let sound = sounds.randomElement(),
              let soundURL = Bundle.main.url(forResource: sound, withExtension: "mp3") else { return }
@@ -530,7 +582,7 @@ class GameScene: SKScene {
     
      
      
-     //casino chips func had to be removed because Apple dont allow even simulated gambling unless the developer is a registered company, it was replaced by a score function.
+     //casino chips func had to be removed because Apple dont allow even simulated gambling unless the developer is a registered company, it was replaced by a score function. At some point I will convert the app for android which wont have the the same policy as Apple so I kept it for the moment.
      
      
     func casinoChips(){
@@ -547,7 +599,7 @@ class GameScene: SKScene {
    
 
   
-   //sounds were tpp repetative , removed at this stage. 
+   //sounds were tpp repetative , removed at this stage. need more material.
     
     
     func hitArray(){
