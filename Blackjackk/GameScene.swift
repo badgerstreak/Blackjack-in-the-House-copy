@@ -6,7 +6,7 @@
 //  Copyright © 2020 Badgerstreak. All rights reserved.
 //
 
-import SpriteKit                                                                  
+import SpriteKit
 import AVFoundation
 import Foundation
 
@@ -30,7 +30,18 @@ class GameScene: SKScene {
     var playerYields = false
     let deck = Deck()
     let musicPlayer = MusicPlayer()
-    var playerScore = 0
+    var playerScore = 0   {
+        didSet {
+            let newTableType = TableType.for(playerScore: playerScore)
+            //Call `replaceTable()` only on `tableType` did change
+            if tableType != newTableType {
+                tableType = newTableType
+                replaceTable()
+            }
+        }
+    }
+    
+    
     let playerLabel = SKLabelNode(fontNamed: "AvenirNext-Bold")
     var dealSscore = 0
     let dealerLabel = SKLabelNode(fontNamed: "AvenirNext-Bold")
@@ -53,7 +64,7 @@ class GameScene: SKScene {
     let evilWinsSounds = ["mojo hit baby", "wintiny", "dealer wins", "woah", "bruised mojo"]
     let tieSounds = ["low blow", "tie d wins", "def not cool", "behave", "tennis"]
     //there will be further sounds and characters being 40 to 59 and so on. Each time the characters  change the background will change also.
-    
+    var tableType: TableType = .ovaloffice
     
     
     override func didMove(to view: SKView) {
@@ -68,7 +79,7 @@ class GameScene: SKScene {
     
     
     //when the following funtionis uncommented I get an error tableType not in scope
- /*   func replaceTable() {
+    func replaceTable() {
             //You need to remove existing `table` before adding new one
             if let table = currentTable {
                 table.removeFromParent()
@@ -93,7 +104,7 @@ class GameScene: SKScene {
             
         }
     }
-    */
+    
     
     func setupTable(){
        
@@ -138,7 +149,7 @@ class GameScene: SKScene {
       playerScore += 1
       playerLabel.text = "Arnie: \(playerScore)"
     
-    var tableType: TableType = .ovaloffice
+ /*   var tableType: TableType = .ovaloffice
     var playerScore = 0 {
         didSet(newScore) {
             let newTableType = TableType.for(playerScore: newScore)
@@ -147,9 +158,9 @@ class GameScene: SKScene {
             if tableType != newTableType {
                 tableType = newTableType
                 
-            }
-        }
-    }
+            }}}
+    
+   */
     
   }
       
