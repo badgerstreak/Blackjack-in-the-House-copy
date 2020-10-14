@@ -124,7 +124,7 @@ class GameScene: SKScene {
         deck.new()
        
        
-        playerLabel.text = "Arnie: 0"
+        playerLabel.text = "Player: 0"
         playerLabel.fontSize = 30
         playerLabel.fontColor = SKColor.red
         playerLabel.horizontalAlignmentMode = SKLabelHorizontalAlignmentMode.left
@@ -132,7 +132,7 @@ class GameScene: SKScene {
         playerLabel.zPosition = 100
         addChild(playerLabel)
 
-        dealerLabel.text = "Trump: 0"
+        dealerLabel.text = "Dealer: 0"
         dealerLabel.fontSize = 30
         dealerLabel.fontColor = SKColor.red
         dealerLabel.horizontalAlignmentMode = SKLabelHorizontalAlignmentMode.left
@@ -147,7 +147,7 @@ class GameScene: SKScene {
   func addPlayerScore() {
       
       playerScore += 1
-      playerLabel.text = "Arnie: \(playerScore)"
+      playerLabel.text = "Player: \(playerScore)"
     
  /*   var tableType: TableType = .ovaloffice
     var playerScore = 0 {
@@ -167,7 +167,7 @@ class GameScene: SKScene {
       func addDealerScore(){
           
           dealSscore += 1
-          dealerLabel.text = "Trump: \(dealSscore)"
+          dealerLabel.text = "Dealer: \(dealSscore)"
       }
  
  
