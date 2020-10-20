@@ -566,7 +566,7 @@ class GameScene: SKScene {
 
      
      
-     //the following function was used to try to get the table to change but I could not get it to work
+     //the following function was used to try to get the table to change
      
      func replaceTable(){
             
