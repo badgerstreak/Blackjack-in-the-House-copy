@@ -557,7 +557,7 @@ class GameScene: SKScene {
     
   /*
    
-    //the following enum was used to change the background but I could not get it to work. I have set the points 0 to 5, 6 to 10 etc instead of 20 and 40 so using the simulator would be easier to check if the code worked.
+    //the following enum was used to change the background. I have set the points 0 to 5, 6 to 10 etc instead of 20 and 40 so using the simulator would be easier to check if the code worked.
      
      enum TableType: String {
          case ovaloffice
@@ -592,7 +592,7 @@ class GameScene: SKScene {
 
      
      
-     //the following function was used to try to get the table to change but I could not get it to work
+     //the following function was used to try to get the table to change
      
      func replaceTable(){
             
