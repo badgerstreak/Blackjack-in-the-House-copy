@@ -15,6 +15,8 @@ enum TableType: String {
     case ovaloffice = "ovaloffice"
     case austin = "austin"
     case bond = "bond"
+    case moesbar = "moes bar"
+    case deadpool = "deadpool"
 }
 extension TableType {
     static func `for`(playerScore: Int) -> TableType {
@@ -23,8 +25,12 @@ extension TableType {
             return .ovaloffice
         case 6...10:
             return .austin
-        default:
+        case 11...15:
             return .bond
+        case 16...20:
+            return .deadpool
+        default:
+            return .moesbar
         }
     }
     var imageName: String {rawValue}

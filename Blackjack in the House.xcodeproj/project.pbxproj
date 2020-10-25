@@ -33,6 +33,50 @@
 		F30B313A24E9E6A80069BB05 /* hilarys hand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B313124E9E6A80069BB05 /* hilarys hand.mp3 */; };
 		F30B313B24E9E6A80069BB05 /* kings.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B313224E9E6A80069BB05 /* kings.mp3 */; };
 		F30B313C24E9E6A80069BB05 /* beat ass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F30B313324E9E6A80069BB05 /* beat ass.mp3 */; };
+		F31EEB542538C79500456599 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31EEB532538C79500456599 /* Sounds.swift */; };
+		F3289BCA2540EE8600DC584F /* rm team.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289B9F2540EE8200DC584F /* rm team.mp3 */; };
+		F3289BCB2540EE8600DC584F /* busted true.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BA02540EE8200DC584F /* busted true.mp3 */; };
+		F3289BCC2540EE8600DC584F /* rm pity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BA12540EE8200DC584F /* rm pity.mp3 */; };
+		F3289BCD2540EE8600DC584F /* beat sleep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BA22540EE8200DC584F /* beat sleep.mp3 */; };
+		F3289BCE2540EE8600DC584F /* sc bona.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BA32540EE8200DC584F /* sc bona.mp3 */; };
+		F3289BCF2540EE8600DC584F /* rm inflated.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BA42540EE8200DC584F /* rm inflated.mp3 */; };
+		F3289BD02540EE8600DC584F /* rm point.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BA52540EE8200DC584F /* rm point.mp3 */; };
+		F3289BD12540EE8600DC584F /* rm shaken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BA62540EE8200DC584F /* rm shaken.mp3 */; };
+		F3289BD22540EE8600DC584F /* smug.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BA72540EE8300DC584F /* smug.mp3 */; };
+		F3289BD42540EE8600DC584F /* rm 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BA92540EE8300DC584F /* rm 6.mp3 */; };
+		F3289BD52540EE8600DC584F /* rm cookie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BAA2540EE8300DC584F /* rm cookie.mp3 */; };
+		F3289BD62540EE8600DC584F /* live die.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BAB2540EE8300DC584F /* live die.mp3 */; };
+		F3289BD72540EE8600DC584F /* rm my line.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BAC2540EE8300DC584F /* rm my line.mp3 */; };
+		F3289BD82540EE8600DC584F /* galore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BAD2540EE8300DC584F /* galore.mp3 */; };
+		F3289BD92540EE8600DC584F /* destiny.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BAE2540EE8300DC584F /* destiny.mp3 */; };
+		F3289BDA2540EE8600DC584F /* rm ego.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BAF2540EE8300DC584F /* rm ego.mp3 */; };
+		F3289BDB2540EE8600DC584F /* rm writing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BB02540EE8300DC584F /* rm writing.mp3 */; };
+		F3289BDC2540EE8600DC584F /* rm never.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BB12540EE8300DC584F /* rm never.mp3 */; };
+		F3289BDD2540EE8600DC584F /* rm sam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BB22540EE8400DC584F /* rm sam.mp3 */; };
+		F3289BDE2540EE8600DC584F /* rm sheer mag.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BB32540EE8400DC584F /* rm sheer mag.mp3 */; };
+		F3289BDF2540EE8600DC584F /* pass cash.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BB42540EE8400DC584F /* pass cash.mp3 */; };
+		F3289BE02540EE8600DC584F /* rm russia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BB52540EE8400DC584F /* rm russia.mp3 */; };
+		F3289BE12540EE8600DC584F /* shocking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BB62540EE8400DC584F /* shocking.mp3 */; };
+		F3289BE22540EE8600DC584F /* rm glass eye.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BB72540EE8400DC584F /* rm glass eye.mp3 */; };
+		F3289BE32540EE8600DC584F /* rm world d.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BB82540EE8400DC584F /* rm world d.mp3 */; };
+		F3289BE42540EE8600DC584F /* rm half ck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BB92540EE8400DC584F /* rm half ck.mp3 */; };
+		F3289BE52540EE8600DC584F /* george.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BBA2540EE8400DC584F /* george.mp3 */; };
+		F3289BE62540EE8600DC584F /* its sean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BBB2540EE8500DC584F /* its sean.mp3 */; };
+		F3289BE72540EE8600DC584F /* blessings.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BBC2540EE8500DC584F /* blessings.mp3 */; };
+		F3289BE82540EE8600DC584F /* well bust.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BBD2540EE8500DC584F /* well bust.mp3 */; };
+		F3289BE92540EE8600DC584F /* rm perfect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BBE2540EE8500DC584F /* rm perfect.mp3 */; };
+		F3289BEA2540EE8600DC584F /* bad luck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BBF2540EE8500DC584F /* bad luck.mp3 */; };
+		F3289BEB2540EE8600DC584F /* bot lip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BC02540EE8500DC584F /* bot lip.mp3 */; };
+		F3289BEC2540EE8600DC584F /* rm bon appet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BC12540EE8500DC584F /* rm bon appet.mp3 */; };
+		F3289BED2540EE8600DC584F /* ride.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BC22540EE8500DC584F /* ride.mp3 */; };
+		F3289BEE2540EE8600DC584F /* run out cash.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BC32540EE8500DC584F /* run out cash.mp3 */; };
+		F3289BEF2540EE8600DC584F /* field bad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BC42540EE8500DC584F /* field bad.mp3 */; };
+		F3289BF02540EE8600DC584F /* rm magnet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BC52540EE8500DC584F /* rm magnet.mp3 */; };
+		F3289BF12540EE8600DC584F /* rm penny.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BC62540EE8500DC584F /* rm penny.mp3 */; };
+		F3289BF22540EE8600DC584F /* rm blk jk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BC72540EE8600DC584F /* rm blk jk.mp3 */; };
+		F3289BF32540EE8600DC584F /* rm next hand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BC82540EE8600DC584F /* rm next hand.mp3 */; };
+		F3289BF42540EE8600DC584F /* its blk jk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BC92540EE8600DC584F /* its blk jk.mp3 */; };
+		F3289BF82540FA9E00DC584F /* arse whipped.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3289BF72540FA9E00DC584F /* arse whipped.mp3 */; };
 		F3556B4F24832C7900C640CB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F3556B4E24832C7900C640CB /* Actions.sks */; };
 		F364504D2533942300D08678 /* playlistbj.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F364504C2533942300D08678 /* playlistbj.mp3 */; };
 		F36450502533945200D08678 /* blow mouth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F364504F2533945200D08678 /* blow mouth.mp3 */; };
@@ -103,10 +147,72 @@
 		F368246724EDBC14004A82AE /* knicks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368245224EDBC14004A82AE /* knicks.mp3 */; };
 		F368246824EDBC14004A82AE /* happy meal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368245324EDBC14004A82AE /* happy meal.mp3 */; };
 		F368246924EDBC14004A82AE /* chunky ass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368245424EDBC14004A82AE /* chunky ass.mp3 */; };
+		F372E08B2545F78700DF7872 /* dp punch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0622545F78300DF7872 /* dp punch.mp3 */; };
+		F372E08C2545F78700DF7872 /* waffles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0632545F78300DF7872 /* waffles.mp3 */; };
+		F372E08D2545F78700DF7872 /* dp see it cm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0642545F78300DF7872 /* dp see it cm.mp3 */; };
+		F372E08E2545F78700DF7872 /* dp better blk jk ag.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0652545F78300DF7872 /* dp better blk jk ag.mp3 */; };
+		F372E08F2545F78700DF7872 /* dp god dam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0662545F78400DF7872 /* dp god dam.mp3 */; };
+		F372E0902545F78700DF7872 /* dp blk jk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0672545F78400DF7872 /* dp blk jk.mp3 */; };
+		F372E0912545F78700DF7872 /* dp thats hard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0682545F78400DF7872 /* dp thats hard.mp3 */; };
+		F372E0922545F78700DF7872 /* x blk jk son of btch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0692545F78400DF7872 /* x blk jk son of btch.mp3 */; };
+		F372E0932545F78700DF7872 /* feotus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E06A2545F78400DF7872 /* feotus.mp3 */; };
+		F372E0942545F78700DF7872 /* x reckless.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E06B2545F78400DF7872 /* x reckless.mp3 */; };
+		F372E0952545F78700DF7872 /* dp make it so.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E06C2545F78400DF7872 /* dp make it so.mp3 */; };
+		F372E0962545F78700DF7872 /* x perfectly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E06D2545F78400DF7872 /* x perfectly.mp3 */; };
+		F372E0972545F78700DF7872 /* dp wham bam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E06E2545F78400DF7872 /* dp wham bam.mp3 */; };
+		F372E0982545F78700DF7872 /* dp xmas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E06F2545F78400DF7872 /* dp xmas.mp3 */; };
+		F372E0992545F78700DF7872 /* x natural order.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0702545F78400DF7872 /* x natural order.mp3 */; };
+		F372E09A2545F78700DF7872 /* x coming back.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0712545F78500DF7872 /* x coming back.mp3 */; };
+		F372E09B2545F78700DF7872 /* dp luvs u bby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0722545F78500DF7872 /* dp luvs u bby.mp3 */; };
+		F372E09C2545F78700DF7872 /* dp ace kojak.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0732545F78500DF7872 /* dp ace kojak.mp3 */; };
+		F372E09D2545F78700DF7872 /* x cheese grt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0742545F78500DF7872 /* x cheese grt.mp3 */; };
+		F372E09E2545F78700DF7872 /* dp muffling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0752545F78500DF7872 /* dp muffling.mp3 */; };
+		F372E09F2545F78700DF7872 /* x spok too long.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0762545F78500DF7872 /* x spok too long.mp3 */; };
+		F372E0A02545F78700DF7872 /* x too ugly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0772545F78500DF7872 /* x too ugly.mp3 */; };
+		F372E0A12545F78700DF7872 /* dp yesterday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0782545F78500DF7872 /* dp yesterday.mp3 */; };
+		F372E0A22545F78700DF7872 /* dp drive through.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0792545F78500DF7872 /* dp drive through.mp3 */; };
+		F372E0A32545F78700DF7872 /* dp not again.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E07A2545F78500DF7872 /* dp not again.mp3 */; };
+		F372E0A42545F78700DF7872 /* dp big chrome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E07B2545F78500DF7872 /* dp big chrome.mp3 */; };
+		F372E0A52545F78700DF7872 /* dp jimmy fn ch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E07C2545F78600DF7872 /* dp jimmy fn ch.mp3 */; };
+		F372E0A62545F78700DF7872 /* dp come on.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E07D2545F78600DF7872 /* dp come on.mp3 */; };
+		F372E0A72545F78700DF7872 /* x handsome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E07E2545F78600DF7872 /* x handsome.mp3 */; };
+		F372E0A82545F78700DF7872 /* x logan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E07F2545F78600DF7872 /* x logan.mp3 */; };
+		F372E0A92545F78700DF7872 /* dp beatles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0802545F78600DF7872 /* dp beatles.mp3 */; };
+		F372E0AA2545F78700DF7872 /* dp beggars.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0812545F78600DF7872 /* dp beggars.mp3 */; };
+		F372E0AB2545F78700DF7872 /* dp helmet head.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0822545F78600DF7872 /* dp helmet head.mp3 */; };
+		F372E0AC2545F78700DF7872 /* dp nice hand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0832545F78600DF7872 /* dp nice hand.mp3 */; };
+		F372E0AD2545F78700DF7872 /* dp rock me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0842545F78600DF7872 /* dp rock me.mp3 */; };
+		F372E0AE2545F78700DF7872 /* dp jimmy ch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0852545F78600DF7872 /* dp jimmy ch.mp3 */; };
+		F372E0AF2545F78700DF7872 /* x bk jk jimmy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0862545F78600DF7872 /* x bk jk jimmy.mp3 */; };
+		F372E0B02545F78700DF7872 /* x keep it.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0872545F78600DF7872 /* x keep it.mp3 */; };
+		F372E0B12545F78700DF7872 /* dp logolas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0882545F78700DF7872 /* dp logolas.mp3 */; };
+		F372E0B22545F78700DF7872 /* dp francis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E0892545F78700DF7872 /* dp francis.mp3 */; };
+		F372E0B32545F78700DF7872 /* dp son of btch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F372E08A2545F78700DF7872 /* dp son of btch.mp3 */; };
 		F38ABCC92496DA4D0090078B /* silence2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F38ABCBC2496DA4C0090078B /* silence2.mp3 */; };
 		F38ABCCB2496DA4D0090078B /* silence3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F38ABCBE2496DA4C0090078B /* silence3.mp3 */; };
 		F38ABCCE2496DA4D0090078B /* silence1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F38ABCC12496DA4D0090078B /* silence1.mp3 */; };
 		F3B952E42482DCB4000999C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B952E22482DCB4000999C4 /* Main.storyboard */; };
+		F3BD76DB25424A390018A71D /* shedding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76C625424A370018A71D /* shedding.mp3 */; };
+		F3BD76DC25424A390018A71D /* cheetoing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76C725424A370018A71D /* cheetoing.mp3 */; };
+		F3BD76DD25424A390018A71D /* blk bby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76C825424A370018A71D /* blk bby.mp3 */; };
+		F3BD76DE25424A390018A71D /* kidding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76C925424A380018A71D /* kidding.mp3 */; };
+		F3BD76DF25424A390018A71D /* tangoed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76CA25424A380018A71D /* tangoed.mp3 */; };
+		F3BD76E025424A390018A71D /* wham bam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76CB25424A380018A71D /* wham bam.mp3 */; };
+		F3BD76E125424A390018A71D /* shag on.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76CC25424A380018A71D /* shag on.mp3 */; };
+		F3BD76E225424A390018A71D /* ev mine agn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76CD25424A380018A71D /* ev mine agn.mp3 */; };
+		F3BD76E325424A390018A71D /* ev plan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76CE25424A380018A71D /* ev plan.mp3 */; };
+		F3BD76E425424A390018A71D /* swinger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76CF25424A380018A71D /* swinger.mp3 */; };
+		F3BD76E525424A390018A71D /* beehive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76D025424A380018A71D /* beehive.mp3 */; };
+		F3BD76E625424A390018A71D /* compels.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76D125424A380018A71D /* compels.mp3 */; };
+		F3BD76E725424A390018A71D /* ev pussy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76D225424A380018A71D /* ev pussy.mp3 */; };
+		F3BD76E925424A390018A71D /* ev bust agn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76D425424A380018A71D /* ev bust agn.mp3 */; };
+		F3BD76EA25424A390018A71D /* wife sha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76D525424A390018A71D /* wife sha.mp3 */; };
+		F3BD76EB25424A390018A71D /* blk sha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76D625424A390018A71D /* blk sha.mp3 */; };
+		F3BD76EC25424A390018A71D /* does hair.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76D725424A390018A71D /* does hair.mp3 */; };
+		F3BD76ED25424A390018A71D /* ev jacket.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76D825424A390018A71D /* ev jacket.mp3 */; };
+		F3BD76EE25424A390018A71D /* bjk in house.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76D925424A390018A71D /* bjk in house.mp3 */; };
+		F3BD76EF25424A390018A71D /* ev candy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76DA25424A390018A71D /* ev candy.mp3 */; };
+		F3BD76F325424EC10018A71D /* shine teeth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76F225424EC10018A71D /* shine teeth.mp3 */; };
 		F3C0DF172482E36F004AB4CD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0DF0B2482E36F004AB4CD /* GameViewController.swift */; };
 		F3C0DF182482E36F004AB4CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C0DF0C2482E36F004AB4CD /* Assets.xcassets */; };
 		F3C0DF192482E36F004AB4CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C0DF0D2482E36F004AB4CD /* LaunchScreen.storyboard */; };
@@ -153,6 +259,50 @@
 		F30B313124E9E6A80069BB05 /* hilarys hand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hilarys hand.mp3"; sourceTree = "<group>"; };
 		F30B313224E9E6A80069BB05 /* kings.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kings.mp3; sourceTree = "<group>"; };
 		F30B313324E9E6A80069BB05 /* beat ass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beat ass.mp3"; sourceTree = "<group>"; };
+		F31EEB532538C79500456599 /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		F3289B9F2540EE8200DC584F /* rm team.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm team.mp3"; sourceTree = "<group>"; };
+		F3289BA02540EE8200DC584F /* busted true.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "busted true.mp3"; sourceTree = "<group>"; };
+		F3289BA12540EE8200DC584F /* rm pity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm pity.mp3"; sourceTree = "<group>"; };
+		F3289BA22540EE8200DC584F /* beat sleep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beat sleep.mp3"; sourceTree = "<group>"; };
+		F3289BA32540EE8200DC584F /* sc bona.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sc bona.mp3"; sourceTree = "<group>"; };
+		F3289BA42540EE8200DC584F /* rm inflated.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm inflated.mp3"; sourceTree = "<group>"; };
+		F3289BA52540EE8200DC584F /* rm point.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm point.mp3"; sourceTree = "<group>"; };
+		F3289BA62540EE8200DC584F /* rm shaken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm shaken.mp3"; sourceTree = "<group>"; };
+		F3289BA72540EE8300DC584F /* smug.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = smug.mp3; sourceTree = "<group>"; };
+		F3289BA92540EE8300DC584F /* rm 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm 6.mp3"; sourceTree = "<group>"; };
+		F3289BAA2540EE8300DC584F /* rm cookie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm cookie.mp3"; sourceTree = "<group>"; };
+		F3289BAB2540EE8300DC584F /* live die.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "live die.mp3"; sourceTree = "<group>"; };
+		F3289BAC2540EE8300DC584F /* rm my line.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm my line.mp3"; sourceTree = "<group>"; };
+		F3289BAD2540EE8300DC584F /* galore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = galore.mp3; sourceTree = "<group>"; };
+		F3289BAE2540EE8300DC584F /* destiny.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = destiny.mp3; sourceTree = "<group>"; };
+		F3289BAF2540EE8300DC584F /* rm ego.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm ego.mp3"; sourceTree = "<group>"; };
+		F3289BB02540EE8300DC584F /* rm writing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm writing.mp3"; sourceTree = "<group>"; };
+		F3289BB12540EE8300DC584F /* rm never.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm never.mp3"; sourceTree = "<group>"; };
+		F3289BB22540EE8400DC584F /* rm sam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm sam.mp3"; sourceTree = "<group>"; };
+		F3289BB32540EE8400DC584F /* rm sheer mag.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm sheer mag.mp3"; sourceTree = "<group>"; };
+		F3289BB42540EE8400DC584F /* pass cash.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "pass cash.mp3"; sourceTree = "<group>"; };
+		F3289BB52540EE8400DC584F /* rm russia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm russia.mp3"; sourceTree = "<group>"; };
+		F3289BB62540EE8400DC584F /* shocking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shocking.mp3; sourceTree = "<group>"; };
+		F3289BB72540EE8400DC584F /* rm glass eye.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm glass eye.mp3"; sourceTree = "<group>"; };
+		F3289BB82540EE8400DC584F /* rm world d.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm world d.mp3"; sourceTree = "<group>"; };
+		F3289BB92540EE8400DC584F /* rm half ck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm half ck.mp3"; sourceTree = "<group>"; };
+		F3289BBA2540EE8400DC584F /* george.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = george.mp3; sourceTree = "<group>"; };
+		F3289BBB2540EE8500DC584F /* its sean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "its sean.mp3"; sourceTree = "<group>"; };
+		F3289BBC2540EE8500DC584F /* blessings.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blessings.mp3; sourceTree = "<group>"; };
+		F3289BBD2540EE8500DC584F /* well bust.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "well bust.mp3"; sourceTree = "<group>"; };
+		F3289BBE2540EE8500DC584F /* rm perfect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm perfect.mp3"; sourceTree = "<group>"; };
+		F3289BBF2540EE8500DC584F /* bad luck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bad luck.mp3"; sourceTree = "<group>"; };
+		F3289BC02540EE8500DC584F /* bot lip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bot lip.mp3"; sourceTree = "<group>"; };
+		F3289BC12540EE8500DC584F /* rm bon appet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm bon appet.mp3"; sourceTree = "<group>"; };
+		F3289BC22540EE8500DC584F /* ride.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ride.mp3; sourceTree = "<group>"; };
+		F3289BC32540EE8500DC584F /* run out cash.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "run out cash.mp3"; sourceTree = "<group>"; };
+		F3289BC42540EE8500DC584F /* field bad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "field bad.mp3"; sourceTree = "<group>"; };
+		F3289BC52540EE8500DC584F /* rm magnet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm magnet.mp3"; sourceTree = "<group>"; };
+		F3289BC62540EE8500DC584F /* rm penny.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm penny.mp3"; sourceTree = "<group>"; };
+		F3289BC72540EE8600DC584F /* rm blk jk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm blk jk.mp3"; sourceTree = "<group>"; };
+		F3289BC82540EE8600DC584F /* rm next hand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rm next hand.mp3"; sourceTree = "<group>"; };
+		F3289BC92540EE8600DC584F /* its blk jk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "its blk jk.mp3"; sourceTree = "<group>"; };
+		F3289BF72540FA9E00DC584F /* arse whipped.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "arse whipped.mp3"; sourceTree = "<group>"; };
 		F33179C024897ED400EE0007 /* Blackjackk copy7.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Blackjackk copy7.entitlements"; sourceTree = "<group>"; };
 		F3556B4C24832C5200C640CB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		F3556B4E24832C7900C640CB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -225,6 +375,47 @@
 		F368245224EDBC14004A82AE /* knicks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = knicks.mp3; sourceTree = "<group>"; };
 		F368245324EDBC14004A82AE /* happy meal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "happy meal.mp3"; sourceTree = "<group>"; };
 		F368245424EDBC14004A82AE /* chunky ass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "chunky ass.mp3"; sourceTree = "<group>"; };
+		F372E0622545F78300DF7872 /* dp punch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp punch.mp3"; sourceTree = "<group>"; };
+		F372E0632545F78300DF7872 /* waffles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waffles.mp3; sourceTree = "<group>"; };
+		F372E0642545F78300DF7872 /* dp see it cm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp see it cm.mp3"; sourceTree = "<group>"; };
+		F372E0652545F78300DF7872 /* dp better blk jk ag.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp better blk jk ag.mp3"; sourceTree = "<group>"; };
+		F372E0662545F78400DF7872 /* dp god dam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp god dam.mp3"; sourceTree = "<group>"; };
+		F372E0672545F78400DF7872 /* dp blk jk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp blk jk.mp3"; sourceTree = "<group>"; };
+		F372E0682545F78400DF7872 /* dp thats hard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp thats hard.mp3"; sourceTree = "<group>"; };
+		F372E0692545F78400DF7872 /* x blk jk son of btch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "x blk jk son of btch.mp3"; sourceTree = "<group>"; };
+		F372E06A2545F78400DF7872 /* feotus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = feotus.mp3; sourceTree = "<group>"; };
+		F372E06B2545F78400DF7872 /* x reckless.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "x reckless.mp3"; sourceTree = "<group>"; };
+		F372E06C2545F78400DF7872 /* dp make it so.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp make it so.mp3"; sourceTree = "<group>"; };
+		F372E06D2545F78400DF7872 /* x perfectly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "x perfectly.mp3"; sourceTree = "<group>"; };
+		F372E06E2545F78400DF7872 /* dp wham bam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp wham bam.mp3"; sourceTree = "<group>"; };
+		F372E06F2545F78400DF7872 /* dp xmas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp xmas.mp3"; sourceTree = "<group>"; };
+		F372E0702545F78400DF7872 /* x natural order.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "x natural order.mp3"; sourceTree = "<group>"; };
+		F372E0712545F78500DF7872 /* x coming back.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "x coming back.mp3"; sourceTree = "<group>"; };
+		F372E0722545F78500DF7872 /* dp luvs u bby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp luvs u bby.mp3"; sourceTree = "<group>"; };
+		F372E0732545F78500DF7872 /* dp ace kojak.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp ace kojak.mp3"; sourceTree = "<group>"; };
+		F372E0742545F78500DF7872 /* x cheese grt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "x cheese grt.mp3"; sourceTree = "<group>"; };
+		F372E0752545F78500DF7872 /* dp muffling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp muffling.mp3"; sourceTree = "<group>"; };
+		F372E0762545F78500DF7872 /* x spok too long.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "x spok too long.mp3"; sourceTree = "<group>"; };
+		F372E0772545F78500DF7872 /* x too ugly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "x too ugly.mp3"; sourceTree = "<group>"; };
+		F372E0782545F78500DF7872 /* dp yesterday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp yesterday.mp3"; sourceTree = "<group>"; };
+		F372E0792545F78500DF7872 /* dp drive through.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp drive through.mp3"; sourceTree = "<group>"; };
+		F372E07A2545F78500DF7872 /* dp not again.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp not again.mp3"; sourceTree = "<group>"; };
+		F372E07B2545F78500DF7872 /* dp big chrome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp big chrome.mp3"; sourceTree = "<group>"; };
+		F372E07C2545F78600DF7872 /* dp jimmy fn ch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp jimmy fn ch.mp3"; sourceTree = "<group>"; };
+		F372E07D2545F78600DF7872 /* dp come on.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp come on.mp3"; sourceTree = "<group>"; };
+		F372E07E2545F78600DF7872 /* x handsome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "x handsome.mp3"; sourceTree = "<group>"; };
+		F372E07F2545F78600DF7872 /* x logan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "x logan.mp3"; sourceTree = "<group>"; };
+		F372E0802545F78600DF7872 /* dp beatles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp beatles.mp3"; sourceTree = "<group>"; };
+		F372E0812545F78600DF7872 /* dp beggars.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp beggars.mp3"; sourceTree = "<group>"; };
+		F372E0822545F78600DF7872 /* dp helmet head.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp helmet head.mp3"; sourceTree = "<group>"; };
+		F372E0832545F78600DF7872 /* dp nice hand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp nice hand.mp3"; sourceTree = "<group>"; };
+		F372E0842545F78600DF7872 /* dp rock me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp rock me.mp3"; sourceTree = "<group>"; };
+		F372E0852545F78600DF7872 /* dp jimmy ch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp jimmy ch.mp3"; sourceTree = "<group>"; };
+		F372E0862545F78600DF7872 /* x bk jk jimmy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "x bk jk jimmy.mp3"; sourceTree = "<group>"; };
+		F372E0872545F78600DF7872 /* x keep it.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "x keep it.mp3"; sourceTree = "<group>"; };
+		F372E0882545F78700DF7872 /* dp logolas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp logolas.mp3"; sourceTree = "<group>"; };
+		F372E0892545F78700DF7872 /* dp francis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp francis.mp3"; sourceTree = "<group>"; };
+		F372E08A2545F78700DF7872 /* dp son of btch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dp son of btch.mp3"; sourceTree = "<group>"; };
 		F38ABCBC2496DA4C0090078B /* silence2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silence2.mp3; sourceTree = "<group>"; };
 		F38ABCBE2496DA4C0090078B /* silence3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silence3.mp3; sourceTree = "<group>"; };
 		F38ABCC12496DA4D0090078B /* silence1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silence1.mp3; sourceTree = "<group>"; };
@@ -235,6 +426,27 @@
 		F3B952E52482DCB5000999C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3B952E82482DCB5000999C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3B952EA2482DCB5000999C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3BD76C625424A370018A71D /* shedding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shedding.mp3; sourceTree = "<group>"; };
+		F3BD76C725424A370018A71D /* cheetoing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cheetoing.mp3; sourceTree = "<group>"; };
+		F3BD76C825424A370018A71D /* blk bby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "blk bby.mp3"; sourceTree = "<group>"; };
+		F3BD76C925424A380018A71D /* kidding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kidding.mp3; sourceTree = "<group>"; };
+		F3BD76CA25424A380018A71D /* tangoed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tangoed.mp3; sourceTree = "<group>"; };
+		F3BD76CB25424A380018A71D /* wham bam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "wham bam.mp3"; sourceTree = "<group>"; };
+		F3BD76CC25424A380018A71D /* shag on.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "shag on.mp3"; sourceTree = "<group>"; };
+		F3BD76CD25424A380018A71D /* ev mine agn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ev mine agn.mp3"; sourceTree = "<group>"; };
+		F3BD76CE25424A380018A71D /* ev plan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ev plan.mp3"; sourceTree = "<group>"; };
+		F3BD76CF25424A380018A71D /* swinger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swinger.mp3; sourceTree = "<group>"; };
+		F3BD76D025424A380018A71D /* beehive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beehive.mp3; sourceTree = "<group>"; };
+		F3BD76D125424A380018A71D /* compels.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = compels.mp3; sourceTree = "<group>"; };
+		F3BD76D225424A380018A71D /* ev pussy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ev pussy.mp3"; sourceTree = "<group>"; };
+		F3BD76D425424A380018A71D /* ev bust agn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ev bust agn.mp3"; sourceTree = "<group>"; };
+		F3BD76D525424A390018A71D /* wife sha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "wife sha.mp3"; sourceTree = "<group>"; };
+		F3BD76D625424A390018A71D /* blk sha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "blk sha.mp3"; sourceTree = "<group>"; };
+		F3BD76D725424A390018A71D /* does hair.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "does hair.mp3"; sourceTree = "<group>"; };
+		F3BD76D825424A390018A71D /* ev jacket.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ev jacket.mp3"; sourceTree = "<group>"; };
+		F3BD76D925424A390018A71D /* bjk in house.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bjk in house.mp3"; sourceTree = "<group>"; };
+		F3BD76DA25424A390018A71D /* ev candy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ev candy.mp3"; sourceTree = "<group>"; };
+		F3BD76F225424EC10018A71D /* shine teeth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "shine teeth.mp3"; sourceTree = "<group>"; };
 		F3C0DF0B2482E36F004AB4CD /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		F3C0DF0C2482E36F004AB4CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3C0DF0E2482E36F004AB4CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -356,6 +568,56 @@
 			path = "trump win";
 			sourceTree = "<group>";
 		};
+		F3289B9D2540EBFD00DC584F /* sounds 40 to 59 */ = {
+			isa = PBXGroup;
+			children = (
+				F3289BF72540FA9E00DC584F /* arse whipped.mp3 */,
+				F3289BBF2540EE8500DC584F /* bad luck.mp3 */,
+				F3289BA22540EE8200DC584F /* beat sleep.mp3 */,
+				F3289BBC2540EE8500DC584F /* blessings.mp3 */,
+				F3289BC02540EE8500DC584F /* bot lip.mp3 */,
+				F3289BA02540EE8200DC584F /* busted true.mp3 */,
+				F3289BAE2540EE8300DC584F /* destiny.mp3 */,
+				F3289BC42540EE8500DC584F /* field bad.mp3 */,
+				F3289BAD2540EE8300DC584F /* galore.mp3 */,
+				F3289BBA2540EE8400DC584F /* george.mp3 */,
+				F3289BC92540EE8600DC584F /* its blk jk.mp3 */,
+				F3289BBB2540EE8500DC584F /* its sean.mp3 */,
+				F3289BAB2540EE8300DC584F /* live die.mp3 */,
+				F3289BB42540EE8400DC584F /* pass cash.mp3 */,
+				F3289BC22540EE8500DC584F /* ride.mp3 */,
+				F3289BA92540EE8300DC584F /* rm 6.mp3 */,
+				F3289BC72540EE8600DC584F /* rm blk jk.mp3 */,
+				F3289BC12540EE8500DC584F /* rm bon appet.mp3 */,
+				F3289BAA2540EE8300DC584F /* rm cookie.mp3 */,
+				F3289BAF2540EE8300DC584F /* rm ego.mp3 */,
+				F3289BB72540EE8400DC584F /* rm glass eye.mp3 */,
+				F3289BB92540EE8400DC584F /* rm half ck.mp3 */,
+				F3289BA42540EE8200DC584F /* rm inflated.mp3 */,
+				F3289BC52540EE8500DC584F /* rm magnet.mp3 */,
+				F3289BAC2540EE8300DC584F /* rm my line.mp3 */,
+				F3289BB12540EE8300DC584F /* rm never.mp3 */,
+				F3289BC82540EE8600DC584F /* rm next hand.mp3 */,
+				F3289BC62540EE8500DC584F /* rm penny.mp3 */,
+				F3289BBE2540EE8500DC584F /* rm perfect.mp3 */,
+				F3289BA12540EE8200DC584F /* rm pity.mp3 */,
+				F3289BA52540EE8200DC584F /* rm point.mp3 */,
+				F3289BB52540EE8400DC584F /* rm russia.mp3 */,
+				F3289BB22540EE8400DC584F /* rm sam.mp3 */,
+				F3289BA62540EE8200DC584F /* rm shaken.mp3 */,
+				F3289BB32540EE8400DC584F /* rm sheer mag.mp3 */,
+				F3289B9F2540EE8200DC584F /* rm team.mp3 */,
+				F3289BB82540EE8400DC584F /* rm world d.mp3 */,
+				F3289BB02540EE8300DC584F /* rm writing.mp3 */,
+				F3289BC32540EE8500DC584F /* run out cash.mp3 */,
+				F3289BA32540EE8200DC584F /* sc bona.mp3 */,
+				F3289BB62540EE8400DC584F /* shocking.mp3 */,
+				F3289BA72540EE8300DC584F /* smug.mp3 */,
+				F3289BBD2540EE8500DC584F /* well bust.mp3 */,
+			);
+			path = "sounds 40 to 59";
+			sourceTree = "<group>";
+		};
 		F364504A253393B000D08678 /* sounds up to 19 points */ = {
 			isa = PBXGroup;
 			children = (
@@ -372,6 +634,27 @@
 		F364505C253394F900D08678 /* sounds 20 t0 39 points */ = {
 			isa = PBXGroup;
 			children = (
+				F3BD76D025424A380018A71D /* beehive.mp3 */,
+				F3BD76D925424A390018A71D /* bjk in house.mp3 */,
+				F3BD76C825424A370018A71D /* blk bby.mp3 */,
+				F3BD76D625424A390018A71D /* blk sha.mp3 */,
+				F3BD76C725424A370018A71D /* cheetoing.mp3 */,
+				F3BD76D125424A380018A71D /* compels.mp3 */,
+				F3BD76D725424A390018A71D /* does hair.mp3 */,
+				F3BD76D425424A380018A71D /* ev bust agn.mp3 */,
+				F3BD76DA25424A390018A71D /* ev candy.mp3 */,
+				F3BD76D825424A390018A71D /* ev jacket.mp3 */,
+				F3BD76CD25424A380018A71D /* ev mine agn.mp3 */,
+				F3BD76CE25424A380018A71D /* ev plan.mp3 */,
+				F3BD76D225424A380018A71D /* ev pussy.mp3 */,
+				F3BD76C925424A380018A71D /* kidding.mp3 */,
+				F3BD76CC25424A380018A71D /* shag on.mp3 */,
+				F3BD76F225424EC10018A71D /* shine teeth.mp3 */,
+				F3BD76C625424A370018A71D /* shedding.mp3 */,
+				F3BD76CF25424A380018A71D /* swinger.mp3 */,
+				F3BD76CA25424A380018A71D /* tangoed.mp3 */,
+				F3BD76CB25424A380018A71D /* wham bam.mp3 */,
+				F3BD76D525424A390018A71D /* wife sha.mp3 */,
 				F36450642533952500D08678 /* austin bj */,
 				F36450742533952600D08678 /* austin bust */,
 				F364506C2533952500D08678 /* austin wins */,
@@ -477,9 +760,59 @@
 			path = "evil wins";
 			sourceTree = "<group>";
 		};
+		F372E00C2545F70500DF7872 /* sounds 60 to 99 */ = {
+			isa = PBXGroup;
+			children = (
+				F372E0732545F78500DF7872 /* dp ace kojak.mp3 */,
+				F372E0802545F78600DF7872 /* dp beatles.mp3 */,
+				F372E0812545F78600DF7872 /* dp beggars.mp3 */,
+				F372E0652545F78300DF7872 /* dp better blk jk ag.mp3 */,
+				F372E07B2545F78500DF7872 /* dp big chrome.mp3 */,
+				F372E0672545F78400DF7872 /* dp blk jk.mp3 */,
+				F372E07D2545F78600DF7872 /* dp come on.mp3 */,
+				F372E0792545F78500DF7872 /* dp drive through.mp3 */,
+				F372E0892545F78700DF7872 /* dp francis.mp3 */,
+				F372E0662545F78400DF7872 /* dp god dam.mp3 */,
+				F372E0822545F78600DF7872 /* dp helmet head.mp3 */,
+				F372E0852545F78600DF7872 /* dp jimmy ch.mp3 */,
+				F372E07C2545F78600DF7872 /* dp jimmy fn ch.mp3 */,
+				F372E0882545F78700DF7872 /* dp logolas.mp3 */,
+				F372E0722545F78500DF7872 /* dp luvs u bby.mp3 */,
+				F372E06C2545F78400DF7872 /* dp make it so.mp3 */,
+				F372E0752545F78500DF7872 /* dp muffling.mp3 */,
+				F372E0832545F78600DF7872 /* dp nice hand.mp3 */,
+				F372E07A2545F78500DF7872 /* dp not again.mp3 */,
+				F372E0622545F78300DF7872 /* dp punch.mp3 */,
+				F372E0842545F78600DF7872 /* dp rock me.mp3 */,
+				F372E0642545F78300DF7872 /* dp see it cm.mp3 */,
+				F372E08A2545F78700DF7872 /* dp son of btch.mp3 */,
+				F372E0682545F78400DF7872 /* dp thats hard.mp3 */,
+				F372E06E2545F78400DF7872 /* dp wham bam.mp3 */,
+				F372E06F2545F78400DF7872 /* dp xmas.mp3 */,
+				F372E0782545F78500DF7872 /* dp yesterday.mp3 */,
+				F372E06A2545F78400DF7872 /* feotus.mp3 */,
+				F372E0632545F78300DF7872 /* waffles.mp3 */,
+				F372E0862545F78600DF7872 /* x bk jk jimmy.mp3 */,
+				F372E0692545F78400DF7872 /* x blk jk son of btch.mp3 */,
+				F372E0742545F78500DF7872 /* x cheese grt.mp3 */,
+				F372E0712545F78500DF7872 /* x coming back.mp3 */,
+				F372E07E2545F78600DF7872 /* x handsome.mp3 */,
+				F372E0872545F78600DF7872 /* x keep it.mp3 */,
+				F372E07F2545F78600DF7872 /* x logan.mp3 */,
+				F372E0702545F78400DF7872 /* x natural order.mp3 */,
+				F372E06D2545F78400DF7872 /* x perfectly.mp3 */,
+				F372E06B2545F78400DF7872 /* x reckless.mp3 */,
+				F372E0762545F78500DF7872 /* x spok too long.mp3 */,
+				F372E0772545F78500DF7872 /* x too ugly.mp3 */,
+			);
+			path = "sounds 60 to 99";
+			sourceTree = "<group>";
+		};
 		F39FC159249AE218007397E5 /* sounds */ = {
 			isa = PBXGroup;
 			children = (
+				F372E00C2545F70500DF7872 /* sounds 60 to 99 */,
+				F3289B9D2540EBFD00DC584F /* sounds 40 to 59 */,
 				F364505C253394F900D08678 /* sounds 20 t0 39 points */,
 				F364504A253393B000D08678 /* sounds up to 19 points */,
 				F38ABCC12496DA4D0090078B /* silence1.mp3 */,
@@ -504,6 +837,7 @@
 				F3C0DF212482E5F5004AB4CD /* MoneyValue.swift */,
 				F3661A5C24B78E2F001079BF /* musicplayer.swift */,
 				F3C0DF2A2482E5F6004AB4CD /* Player.swift */,
+				F31EEB532538C79500456599 /* Sounds.swift */,
 				F3FD6378252D3D4700C5668A /* tableType.swift */,
 				F3C0DF252482E5F5004AB4CD /* Utilities.swift */,
 				F3B952D72482DCB4000999C4 /* Blackjackk */,
@@ -610,108 +944,213 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3289BF02540EE8600DC584F /* rm magnet.mp3 in Resources */,
 				F36450982533952600D08678 /* shagjack.mp3 in Resources */,
+				F3289BD52540EE8600DC584F /* rm cookie.mp3 in Resources */,
+				F372E09C2545F78700DF7872 /* dp ace kojak.mp3 in Resources */,
 				F36450972533952600D08678 /* 69.mp3 in Resources */,
 				F36450A12533952600D08678 /* yeah baby.mp3 in Resources */,
 				F30B312524E9E6070069BB05 /* leather.mp3 in Resources */,
+				F372E0AD2545F78700DF7872 /* dp rock me.mp3 in Resources */,
 				F36450B42533952600D08678 /* low blow.mp3 in Resources */,
 				F368245624EDBC14004A82AE /* not whitejack da.mp3 in Resources */,
+				F372E0A82545F78700DF7872 /* x logan.mp3 in Resources */,
 				F364504D2533942300D08678 /* playlistbj.mp3 in Resources */,
 				F368245824EDBC14004A82AE /* chicken.mp3 in Resources */,
 				F368245724EDBC14004A82AE /* whipped.mp3 in Resources */,
+				F372E0AB2545F78700DF7872 /* dp helmet head.mp3 in Resources */,
+				F372E08E2545F78700DF7872 /* dp better blk jk ag.mp3 in Resources */,
 				F364509F2533952600D08678 /* shaguar.mp3 in Resources */,
+				F3289BF82540FA9E00DC584F /* arse whipped.mp3 in Resources */,
 				F38ABCC92496DA4D0090078B /* silence2.mp3 in Resources */,
 				F36450A62533952600D08678 /* bust dam it.mp3 in Resources */,
 				F30B310424E9E49B0069BB05 /* easy come.mp3 in Resources */,
+				F3289BF32540EE8600DC584F /* rm next hand.mp3 in Resources */,
 				F3B952E42482DCB4000999C4 /* Main.storyboard in Resources */,
+				F3289BE72540EE8600DC584F /* blessings.mp3 in Resources */,
 				F36450B92533952600D08678 /* mojo hit baby.mp3 in Resources */,
 				F30B30F424E9E3C80069BB05 /* stupid.mp3 in Resources */,
+				F3289BD42540EE8600DC584F /* rm 6.mp3 in Resources */,
+				F372E0AF2545F78700DF7872 /* x bk jk jimmy.mp3 in Resources */,
+				F3289BEB2540EE8600DC584F /* bot lip.mp3 in Resources */,
 				F30B311324E9E5670069BB05 /* whitejack.mp3 in Resources */,
 				F36450BC2533952600D08678 /* woah.mp3 in Resources */,
+				F3289BEF2540EE8600DC584F /* field bad.mp3 in Resources */,
+				F3BD76E725424A390018A71D /* ev pussy.mp3 in Resources */,
 				F30B312724E9E6070069BB05 /* my seat.mp3 in Resources */,
 				F368246624EDBC14004A82AE /* be back da.mp3 in Resources */,
+				F3289BD92540EE8600DC584F /* destiny.mp3 in Resources */,
+				F372E0A12545F78700DF7872 /* dp yesterday.mp3 in Resources */,
 				F36450952533952600D08678 /* hand pick.mp3 in Resources */,
+				F3289BD72540EE8600DC584F /* rm my line.mp3 in Resources */,
 				F364509B2533952600D08678 /* shagadelic.mp3 in Resources */,
+				F3289BCF2540EE8600DC584F /* rm inflated.mp3 in Resources */,
+				F3BD76DE25424A390018A71D /* kidding.mp3 in Resources */,
 				F36450AC2533952600D08678 /* fookme.mp3 in Resources */,
+				F3289BD82540EE8600DC584F /* galore.mp3 in Resources */,
+				F3BD76DB25424A390018A71D /* shedding.mp3 in Resources */,
 				F368245924EDBC14004A82AE /* sarcasm.mp3 in Resources */,
 				F368246024EDBC14004A82AE /* d duck.mp3 in Resources */,
 				F36450992533952600D08678 /* big blackjack.mp3 in Resources */,
 				F30B30E124E9E3400069BB05 /* my seat2.mp3 in Resources */,
 				F36450A82533952600D08678 /* grater.mp3 in Resources */,
+				F3289BD02540EE8600DC584F /* rm point.mp3 in Resources */,
 				F36450A22533952600D08678 /* masterdebater.mp3 in Resources */,
 				F36450A52533952600D08678 /* bust come on.mp3 in Resources */,
+				F372E0A22545F78700DF7872 /* dp drive through.mp3 in Resources */,
 				F30B311424E9E5670069BB05 /* piss off.mp3 in Resources */,
+				F3BD76DD25424A390018A71D /* blk bby.mp3 in Resources */,
+				F3289BDC2540EE8600DC584F /* rm never.mp3 in Resources */,
+				F3289BDB2540EE8600DC584F /* rm writing.mp3 in Resources */,
+				F372E0942545F78700DF7872 /* x reckless.mp3 in Resources */,
+				F3289BF42540EE8600DC584F /* its blk jk.mp3 in Resources */,
 				F364509A2533952600D08678 /* shagjack again.mp3 in Resources */,
+				F3289BD22540EE8600DC584F /* smug.mp3 in Resources */,
 				F36450B02533952600D08678 /* good+bad.mp3 in Resources */,
+				F3289BED2540EE8600DC584F /* ride.mp3 in Resources */,
+				F3289BE52540EE8600DC584F /* george.mp3 in Resources */,
 				F30B30F624E9E3C80069BB05 /* gooder.mp3 in Resources */,
 				F3556B4F24832C7900C640CB /* Actions.sks in Resources */,
 				F36450B72533952600D08678 /* behave.mp3 in Resources */,
+				F372E0982545F78700DF7872 /* dp xmas.mp3 in Resources */,
+				F372E08F2545F78700DF7872 /* dp god dam.mp3 in Resources */,
+				F3289BF12540EE8600DC584F /* rm penny.mp3 in Resources */,
 				F36450B22533952600D08678 /* win some.mp3 in Resources */,
+				F3289BCB2540EE8600DC584F /* busted true.mp3 in Resources */,
+				F3289BE02540EE8600DC584F /* rm russia.mp3 in Resources */,
 				F368246124EDBC14004A82AE /* hooker.mp3 in Resources */,
 				F38ABCCB2496DA4D0090078B /* silence3.mp3 in Resources */,
+				F3289BCA2540EE8600DC584F /* rm team.mp3 in Resources */,
 				F3C0DF192482E36F004AB4CD /* LaunchScreen.storyboard in Resources */,
 				F30B313A24E9E6A80069BB05 /* hilarys hand.mp3 in Resources */,
+				F372E0912545F78700DF7872 /* dp thats hard.mp3 in Resources */,
+				F372E0A42545F78700DF7872 /* dp big chrome.mp3 in Resources */,
+				F372E0902545F78700DF7872 /* dp blk jk.mp3 in Resources */,
+				F372E0992545F78700DF7872 /* x natural order.mp3 in Resources */,
 				F36450A32533952600D08678 /* not bad.mp3 in Resources */,
 				F30B311024E9E5670069BB05 /* 35 bj.mp3 in Resources */,
+				F3BD76ED25424A390018A71D /* ev jacket.mp3 in Resources */,
+				F3BD76EB25424A390018A71D /* blk sha.mp3 in Resources */,
 				F36450962533952600D08678 /* fookme not agn.mp3 in Resources */,
+				F3289BE32540EE8600DC584F /* rm world d.mp3 in Resources */,
+				F3BD76EC25424A390018A71D /* does hair.mp3 in Resources */,
+				F372E0B32545F78700DF7872 /* dp son of btch.mp3 in Resources */,
 				F36450932533952600D08678 /* bj fook me.mp3 in Resources */,
+				F372E0A92545F78700DF7872 /* dp beatles.mp3 in Resources */,
 				F368246924EDBC14004A82AE /* chunky ass.mp3 in Resources */,
 				F3C0DF182482E36F004AB4CD /* Assets.xcassets in Resources */,
+				F3BD76F325424EC10018A71D /* shine teeth.mp3 in Resources */,
 				F36450A92533952600D08678 /* fook me not again.mp3 in Resources */,
 				F30B310124E9E49B0069BB05 /* hilary desk.mp3 in Resources */,
+				F3BD76E425424A390018A71D /* swinger.mp3 in Resources */,
 				F30B310524E9E49B0069BB05 /* you win im rich.mp3 in Resources */,
 				F36450502533945200D08678 /* blow mouth.mp3 in Resources */,
 				F368245C24EDBC14004A82AE /* russian.mp3 in Resources */,
 				F30B310024E9E49B0069BB05 /* lose better.mp3 in Resources */,
 				F36450AD2533952600D08678 /* oops.mp3 in Resources */,
 				F36450942533952600D08678 /* bj not again.mp3 in Resources */,
+				F3289BEA2540EE8600DC584F /* bad luck.mp3 in Resources */,
 				F36450A42533952600D08678 /* bad hair day.mp3 in Resources */,
+				F3289BD12540EE8600DC584F /* rm shaken.mp3 in Resources */,
 				F365390F252D326A0070CA99 /* teeth.mp3 in Resources */,
+				F372E08B2545F78700DF7872 /* dp punch.mp3 in Resources */,
+				F3289BEE2540EE8600DC584F /* run out cash.mp3 in Resources */,
+				F372E09A2545F78700DF7872 /* x coming back.mp3 in Resources */,
+				F3289BCD2540EE8600DC584F /* beat sleep.mp3 in Resources */,
 				F36450922533952600D08678 /* not cool hate it.mp3 in Resources */,
+				F3289BE22540EE8600DC584F /* rm glass eye.mp3 in Resources */,
+				F3289BDE2540EE8600DC584F /* rm sheer mag.mp3 in Resources */,
 				F36450BB2533952600D08678 /* dealer wins.mp3 in Resources */,
+				F3BD76E125424A390018A71D /* shag on.mp3 in Resources */,
+				F372E08D2545F78700DF7872 /* dp see it cm.mp3 in Resources */,
 				F30B313724E9E6A80069BB05 /* rig it.mp3 in Resources */,
+				F3289BF22540EE8600DC584F /* rm blk jk.mp3 in Resources */,
+				F372E0952545F78700DF7872 /* dp make it so.mp3 in Resources */,
+				F372E0A32545F78700DF7872 /* dp not again.mp3 in Resources */,
 				F30B310224E9E49B0069BB05 /* not ripped.mp3 in Resources */,
+				F3BD76E025424A390018A71D /* wham bam.mp3 in Resources */,
+				F3BD76DC25424A390018A71D /* cheetoing.mp3 in Resources */,
 				F36450BD2533952600D08678 /* bruised mojo.mp3 in Resources */,
 				F36450532533946100D08678 /* crayon.mp3 in Resources */,
 				F30B313C24E9E6A80069BB05 /* beat ass.mp3 in Resources */,
+				F3289BCE2540EE8600DC584F /* sc bona.mp3 in Resources */,
 				F36450912533952600D08678 /* gotta hurt.mp3 in Resources */,
+				F3289BD62540EE8600DC584F /* live die.mp3 in Resources */,
+				F372E09D2545F78700DF7872 /* x cheese grt.mp3 in Resources */,
 				F368245F24EDBC14004A82AE /* looks.mp3 in Resources */,
 				F30B313624E9E6A80069BB05 /* lose to donald.mp3 in Resources */,
 				F3C0DF1B2482E36F004AB4CD /* GameScene.sks in Resources */,
+				F3BD76E225424A390018A71D /* ev mine agn.mp3 in Resources */,
+				F3289BE82540EE8600DC584F /* well bust.mp3 in Resources */,
 				F30B310624E9E49B0069BB05 /* loose change.mp3 in Resources */,
+				F372E0922545F78700DF7872 /* x blk jk son of btch.mp3 in Resources */,
+				F372E0B12545F78700DF7872 /* dp logolas.mp3 in Resources */,
 				F368246824EDBC14004A82AE /* happy meal.mp3 in Resources */,
 				F368245E24EDBC14004A82AE /* cheeto.mp3 in Resources */,
+				F3BD76DF25424A390018A71D /* tangoed.mp3 in Resources */,
+				F372E0932545F78700DF7872 /* feotus.mp3 in Resources */,
+				F372E0962545F78700DF7872 /* x perfectly.mp3 in Resources */,
+				F3BD76EF25424A390018A71D /* ev candy.mp3 in Resources */,
 				F36450B12533952600D08678 /* fare.mp3 in Resources */,
 				F30B30F024E9E3C80069BB05 /* winning not.mp3 in Resources */,
+				F372E0B22545F78700DF7872 /* dp francis.mp3 in Resources */,
 				F364509C2533952600D08678 /* batman.mp3 in Resources */,
+				F372E0A72545F78700DF7872 /* x handsome.mp3 in Resources */,
+				F372E0A52545F78700DF7872 /* dp jimmy fn ch.mp3 in Resources */,
+				F372E0972545F78700DF7872 /* dp wham bam.mp3 in Resources */,
+				F3289BDD2540EE8600DC584F /* rm sam.mp3 in Resources */,
+				F3289BE42540EE8600DC584F /* rm half ck.mp3 in Resources */,
+				F3289BE12540EE8600DC584F /* shocking.mp3 in Resources */,
+				F3289BE92540EE8600DC584F /* rm perfect.mp3 in Resources */,
+				F3289BDF2540EE8600DC584F /* pass cash.mp3 in Resources */,
 				F36450B52533952600D08678 /* tie d wins.mp3 in Resources */,
 				F36450562533947500D08678 /* mail order.mp3 in Resources */,
 				F36450B32533952600D08678 /* hurt toots.mp3 in Resources */,
+				F3BD76EA25424A390018A71D /* wife sha.mp3 in Resources */,
 				F36450A72533952600D08678 /* dick move.mp3 in Resources */,
 				F36450BA2533952600D08678 /* wintiny.mp3 in Resources */,
+				F372E0B02545F78700DF7872 /* x keep it.mp3 in Resources */,
 				F36450AE2533952600D08678 /* way i like.mp3 in Resources */,
 				F36450B82533952600D08678 /* tennis.mp3 in Resources */,
 				F36450AF2533952600D08678 /* bust baby.mp3 in Resources */,
 				F30B30F524E9E3C80069BB05 /* food chain.mp3 in Resources */,
+				F3289BDA2540EE8600DC584F /* rm ego.mp3 in Resources */,
 				F368246724EDBC14004A82AE /* knicks.mp3 in Resources */,
+				F3289BCC2540EE8600DC584F /* rm pity.mp3 in Resources */,
 				F364509D2533952600D08678 /* groovy.mp3 in Resources */,
+				F3BD76E525424A390018A71D /* beehive.mp3 in Resources */,
 				F3C0DF1A2482E36F004AB4CD /* Main.storyboard in Resources */,
 				F30B312424E9E6070069BB05 /* won again.mp3 in Resources */,
 				F36450AA2533952600D08678 /* come on.mp3 in Resources */,
+				F372E0A62545F78700DF7872 /* dp come on.mp3 in Resources */,
 				F38ABCCE2496DA4D0090078B /* silence1.mp3 in Resources */,
 				F30B30F224E9E3C80069BB05 /* on the chin.mp3 in Resources */,
+				F3BD76E325424A390018A71D /* ev plan.mp3 in Resources */,
 				F30B311624E9E5670069BB05 /* can i say bj.mp3 in Resources */,
 				F30B312924E9E6070069BB05 /* lost conc.mp3 in Resources */,
+				F3BD76E925424A390018A71D /* ev bust agn.mp3 in Resources */,
+				F372E09B2545F78700DF7872 /* dp luvs u bby.mp3 in Resources */,
 				F368245A24EDBC14004A82AE /* thick b.mp3 in Resources */,
 				F368246424EDBC14004A82AE /* daddy money.mp3 in Resources */,
+				F372E09F2545F78700DF7872 /* x spok too long.mp3 in Resources */,
 				F36450A02533952600D08678 /* mojo back.mp3 in Resources */,
+				F372E0AC2545F78700DF7872 /* dp nice hand.mp3 in Resources */,
+				F372E0AE2545F78700DF7872 /* dp jimmy ch.mp3 in Resources */,
 				F36450AB2533952600D08678 /* not again.mp3 in Resources */,
 				F3661A5F24B7D8CD001079BF /* Default-568h@2x.png in Resources */,
+				F372E0AA2545F78700DF7872 /* dp beggars.mp3 in Resources */,
+				F3289BE62540EE8600DC584F /* its sean.mp3 in Resources */,
 				F30B313B24E9E6A80069BB05 /* kings.mp3 in Resources */,
+				F372E09E2545F78700DF7872 /* dp muffling.mp3 in Resources */,
+				F372E08C2545F78700DF7872 /* waffles.mp3 in Resources */,
+				F3289BEC2540EE8600DC584F /* rm bon appet.mp3 in Resources */,
 				F36450B62533952600D08678 /* def not cool.mp3 in Resources */,
 				F30B313524E9E6A80069BB05 /* stump up pb.mp3 in Resources */,
+				F3BD76E625424A390018A71D /* compels.mp3 in Resources */,
 				F36450592533948000D08678 /* move lips ah.mp3 in Resources */,
 				F368246524EDBC14004A82AE /* ping pong.mp3 in Resources */,
+				F372E0A02545F78700DF7872 /* x too ugly.mp3 in Resources */,
+				F3BD76EE25424A390018A71D /* bjk in house.mp3 in Resources */,
 				F364509E2533952600D08678 /* mojo right.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -735,6 +1174,7 @@
 				F3C0DF332482E5F6004AB4CD /* Card.swift in Sources */,
 				F3FD6379252D3D4700C5668A /* tableType.swift in Sources */,
 				F3C0DF2E2482E5F6004AB4CD /* Hand.swift in Sources */,
+				F31EEB542538C79500456599 /* Sounds.swift in Sources */,
 				F3C0DF1C2482E36F004AB4CD /* AppDelegate.swift in Sources */,
 				F3C0DF362482E5F6004AB4CD /* Bank.swift in Sources */,
 			);
