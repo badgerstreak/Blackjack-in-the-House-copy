@@ -133,7 +133,6 @@
 		F3661A5F24B7D8CD001079BF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3661A5E24B7D8CD001079BF /* Default-568h@2x.png */; };
 		F368245624EDBC14004A82AE /* not whitejack da.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368244124EDBC13004A82AE /* not whitejack da.mp3 */; };
 		F368245724EDBC14004A82AE /* whipped.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368244224EDBC13004A82AE /* whipped.mp3 */; };
-		F368245824EDBC14004A82AE /* chicken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368244324EDBC14004A82AE /* chicken.mp3 */; };
 		F368245924EDBC14004A82AE /* sarcasm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368244424EDBC14004A82AE /* sarcasm.mp3 */; };
 		F368245A24EDBC14004A82AE /* thick b.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368244524EDBC14004A82AE /* thick b.mp3 */; };
 		F368245C24EDBC14004A82AE /* russian.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F368244724EDBC14004A82AE /* russian.mp3 */; };
@@ -191,6 +190,7 @@
 		F38ABCC92496DA4D0090078B /* silence2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F38ABCBC2496DA4C0090078B /* silence2.mp3 */; };
 		F38ABCCB2496DA4D0090078B /* silence3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F38ABCBE2496DA4C0090078B /* silence3.mp3 */; };
 		F38ABCCE2496DA4D0090078B /* silence1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F38ABCC12496DA4D0090078B /* silence1.mp3 */; };
+		F3A30C62255351B600A6F706 /* chicken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3A30C61255351B600A6F706 /* chicken.mp3 */; };
 		F3B952E42482DCB4000999C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B952E22482DCB4000999C4 /* Main.storyboard */; };
 		F3BD76DB25424A390018A71D /* shedding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76C625424A370018A71D /* shedding.mp3 */; };
 		F3BD76DC25424A390018A71D /* cheetoing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BD76C725424A370018A71D /* cheetoing.mp3 */; };
@@ -361,7 +361,6 @@
 		F3661A5E24B7D8CD001079BF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F368244124EDBC13004A82AE /* not whitejack da.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "not whitejack da.mp3"; sourceTree = "<group>"; };
 		F368244224EDBC13004A82AE /* whipped.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whipped.mp3; sourceTree = "<group>"; };
-		F368244324EDBC14004A82AE /* chicken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chicken.mp3; sourceTree = "<group>"; };
 		F368244424EDBC14004A82AE /* sarcasm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sarcasm.mp3; sourceTree = "<group>"; };
 		F368244524EDBC14004A82AE /* thick b.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "thick b.mp3"; sourceTree = "<group>"; };
 		F368244724EDBC14004A82AE /* russian.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = russian.mp3; sourceTree = "<group>"; };
@@ -419,6 +418,7 @@
 		F38ABCBC2496DA4C0090078B /* silence2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silence2.mp3; sourceTree = "<group>"; };
 		F38ABCBE2496DA4C0090078B /* silence3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silence3.mp3; sourceTree = "<group>"; };
 		F38ABCC12496DA4D0090078B /* silence1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silence1.mp3; sourceTree = "<group>"; };
+		F3A30C61255351B600A6F706 /* chicken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chicken.mp3; sourceTree = "<group>"; };
 		F3B952D52482DCB4000999C4 /* Blackjack in the House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blackjack in the House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B952D82482DCB4000999C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3B952DE2482DCB4000999C4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; tabWidth = 4; };
@@ -493,7 +493,7 @@
 				F368245124EDBC14004A82AE /* be back da.mp3 */,
 				F364504F2533945200D08678 /* blow mouth.mp3 */,
 				F368244924EDBC14004A82AE /* cheeto.mp3 */,
-				F368244324EDBC14004A82AE /* chicken.mp3 */,
+				F3A30C61255351B600A6F706 /* chicken.mp3 */,
 				F368245424EDBC14004A82AE /* chunky ass.mp3 */,
 				F36450522533946100D08678 /* crayon.mp3 */,
 				F368244B24EDBC14004A82AE /* d duck.mp3 */,
@@ -956,7 +956,6 @@
 				F368245624EDBC14004A82AE /* not whitejack da.mp3 in Resources */,
 				F372E0A82545F78700DF7872 /* x logan.mp3 in Resources */,
 				F364504D2533942300D08678 /* playlistbj.mp3 in Resources */,
-				F368245824EDBC14004A82AE /* chicken.mp3 in Resources */,
 				F368245724EDBC14004A82AE /* whipped.mp3 in Resources */,
 				F372E0AB2545F78700DF7872 /* dp helmet head.mp3 in Resources */,
 				F372E08E2545F78700DF7872 /* dp better blk jk ag.mp3 in Resources */,
@@ -1151,6 +1150,7 @@
 				F368246524EDBC14004A82AE /* ping pong.mp3 in Resources */,
 				F372E0A02545F78700DF7872 /* x too ugly.mp3 in Resources */,
 				F3BD76EE25424A390018A71D /* bjk in house.mp3 in Resources */,
+				F3A30C62255351B600A6F706 /* chicken.mp3 in Resources */,
 				F364509E2533952600D08678 /* mojo right.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -22,11 +22,11 @@ extension TableType {
     static func `for`(playerScore: Int) -> TableType {
         switch playerScore {
         case 0...5:
-            return .ovaloffice
-        case 6...10:
-            return .austin
-        case 11...15:
             return .bond
+        case 6...10:
+            return .ovaloffice
+        case 11...15:
+            return .austin
         case 16...20:
             return .deadpool
         default:

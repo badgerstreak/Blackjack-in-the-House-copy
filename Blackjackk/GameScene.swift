@@ -45,29 +45,10 @@ class GameScene: SKScene {
     let playerLabel = SKLabelNode(fontNamed: "AvenirNext-Bold")
     var dealSscore = 0
     let dealerLabel = SKLabelNode(fontNamed: "AvenirNext-Bold")
-    let table = SKSpriteNode(imageNamed: "ovaloffice")
+    let table = SKSpriteNode(imageNamed: "bond")
     var currentTable: SKSpriteNode?
     
-    
-    //the following sound arrays will play up to 19 points on player score
-    let playerBlackjackSounds = ["looks", "my seat2", "knicks", "daddy money", "cheeto", "whipped"]
-    let playerBustSounds = ["mail order", "winning not", "crayon", "on the chin", "move lips ah", "stupid", "food chain", "gooder", "teeth"]
-    let dealerBlackjackSounds = ["35 bj", "ping pong", "whitejack", "piss off", "chicken", "can i say", "not whitejack", "blow mouth"]
-    let arrayTieSounds = ["knicks", "rig it", "kings", "ping pong", "on the chin", "gooder"]
-    let playerLoseSounds = ["stump up pb", "lose to donald", "rig it", "sarcasm", "hooker", "hilarys hand", "kings", "beat ass", "happy meal"]
-    let dealerBustSounds = ["be back da", "won again", "leather", "thick b", "my seat", "d duck", "lost conc", "russian"]
-    let dealerLoseSounds = ["lose better", "hilary desk", "not ripped", "chunky ass", "easy come", "you win im rich", "loose change", "whipped"]
-    
-    //the following sound arrays will play 20 to 39 points on player score
-    let austinbjsounds = ["69", "shagjack", "big blackjack", "shagjack again", "shagadelic", "batman", "groovy", "bjk in house", "blk bby", "blk sha", "shag on", "swinger"]
-    let austinBustSounds = ["bust come on", "bust dam it", "dick move", "grater", "fook me not again", "come on", "not again", "fookme", "oops", "ev bust agn", "ev jacket", "kidding"]
-    let austinWinSounds = ["mojo right", "shaguar", "mojo back", "yeah baby", "masterdebater", "not bad", "bad hair day", "compels", "ev pussy"]
-    let evilBjSounds = ["gotta hurt", "not cool hate it", "bj fook me", "bj not again", "hand pick", "fookme not agn", "beehive", "ev mine agn","shine teeth"]
-    let evilBustSounds = ["way i like", "bust baby", "good+bad", "fare", "win some", "hurt toots", "shedding", "tangoed", "wham bam"]
-    let evilWinsSounds = ["mojo hit baby", "wintiny", "dealer wins", "woah", "bruised mojo", "cheetoing", "does hair", "candy", "ev plan"]
-    let tieSounds = ["low blow", "tie d wins", "def not cool", "behave", "tennis", "wife"]
-    
-    //the following sound arrays will play 40 to 59 points on player score
+    //the following sound arrays will play 0 to 19 points on player score
     let conneryBjSounds = ["its blk jk", "run out cash", "sc bona", "george", "rm sam", "arse whipped"]
     let conneryBustSounds = ["live die", "shocking", "rm never", "rm half ck", "rm 6"]
     let conneryWinsSounds = ["field bad", "ride", "destiny", "pass cash", "its sean", "rm world", "beat sleep", "arse whipped"]
@@ -75,6 +56,24 @@ class GameScene: SKScene {
     let mooreBustSounds = ["galore", "bot lip", "well bust", "blessings", "bad luck", "busted true", "rm pity", "rm penny", "rm team", "rm glass eye"]
     let mooreWinSounds = ["rm perfect", "rm magnet", "rm sheer mag", "rm writing", "rm bon appet"]
     let bondTieSounds = ["rm shaken", "rm next hand", "rm inflated", "rm point", "rm cookie"]
+    
+    //the following sound arrays will play 20 to  39 points on player score
+    let arnieBjSounds = ["looks", "my seat2", "knicks", "daddy money", "cheeto", "whipped"]
+    let arnieBustSounds = ["mail order", "winning not", "crayon", "on the chin", "move lips ah", "stupid", "food chain", "gooder", "teeth"]
+    let trumpBjSounds = ["35 bj", "ping pong", "whitejack", "piss off", "chicken", "can i say", "not whitejack", "blow mouth"]
+    let trumpTieSounds = ["knicks", "rig it", "kings", "ping pong", "on the chin", "gooder"]
+    let arnieLoseSounds = ["stump up pb", "lose to donald", "rig it", "sarcasm", "hooker", "hilarys hand", "kings", "beat ass", "happy meal"]
+    let trumpBustSounds = ["be back da", "won again", "leather", "thick b", "my seat", "d duck", "lost conc", "russian"]
+    let trumpLoseSounds = ["lose better", "hilary desk", "not ripped", "chunky ass", "easy come", "you win im rich", "loose change", "whipped"]
+    
+    //the following sound arrays will play 40 to 59 points on player score
+    let austinbjsounds = ["69", "shagjack", "big blackjack", "shagjack again", "shagadelic", "batman", "groovy", "bjk in house", "blk bby", "blk sha", "shag on", "swinger"]
+    let austinBustSounds = ["bust come on", "bust dam it", "dick move", "grater", "fook me not again", "come on", "not again", "fookme", "oops", "ev bust agn", "ev jacket", "kidding"]
+    let austinWinSounds = ["mojo right", "shaguar", "mojo back", "yeah baby", "masterdebater", "not bad", "bad hair day", "compels", "ev pussy"]
+    let evilBjSounds = ["gotta hurt", "not cool hate it", "bj fook me", "bj not again", "hand pick", "fookme not agn", "beehive", "ev mine agn","shine teeth"]
+    let evilBustSounds = ["way i like", "bust baby", "good+bad", "fare", "win some", "hurt toots", "shedding", "tangoed", "wham bam"]
+    let evilWinsSounds = ["mojo hit baby", "wintiny", "dealer wins", "woah", "bruised mojo", "cheetoing", "does hair", "candy", "ev plan"]
+    let austinTieSounds = ["low blow", "tie d wins", "def not cool", "behave", "tennis", "wife"]
     
     
     //the following sound arrays will play 60 to 99 points on player score
@@ -115,13 +114,13 @@ class GameScene: SKScene {
             table.zPosition = -1
         
         switch tableType {
+                case .bond:
+                    //...
+                    break
                 case .ovaloffice:
                     //...
                     break
                 case .austin:
-                    //...
-                    break
-                case .bond:
                     //...
                     break
                 case .deadpool:
@@ -175,18 +174,6 @@ class GameScene: SKScene {
       playerScore += 1
       playerLabel.text = "Player: \(playerScore)"
     
- /*   var tableType: TableType = .ovaloffice
-    var playerScore = 0 {
-        didSet(newScore) {
-            let newTableType = TableType.for(playerScore: newScore)
-            
-            //Call `replaceTable()` only on `tableType` did change
-            if tableType != newTableType {
-                tableType = newTableType
-                
-            }}}
-    
-   */
     
   }
       
@@ -396,7 +383,7 @@ class GameScene: SKScene {
                 instructionText.text = "You Got BlackJack!";
                 moveMoneyContainer(position: playerCardsY)
                 //player blackjack array
-                playRandomSound(sounds: playerBlackjackSounds)
+                playRandomSound(sounds: conneryBjSounds)
                 addPlayerScore()
             }
             
@@ -406,7 +393,7 @@ class GameScene: SKScene {
                 
                 instructionText.text = "Dealer got BlackJack!";
                 moveMoneyContainer(position: dealerCardsY)
-                playRandomSound(sounds: dealerBlackjackSounds)
+                playRandomSound(sounds: mooreBjSounds)
                 addDealerScore()
             }
             
@@ -420,7 +407,7 @@ class GameScene: SKScene {
             
             winner = dealer
              // playerbust array here
-            playRandomSound(sounds: playerBustSounds)
+            playRandomSound(sounds: conneryBustSounds)
             addDealerScore()
             }
         
@@ -431,7 +418,7 @@ class GameScene: SKScene {
             winner = player1
             
             //dealer bust array
-            playRandomSound(sounds: dealerBustSounds)
+            playRandomSound(sounds: mooreBustSounds)
             addPlayerScore()
             
         }else if (dealer.hand.getValue() > player1.hand.getValue()){
@@ -440,7 +427,7 @@ class GameScene: SKScene {
             instructionText.text = "You Lose!"
             winner = dealer
             //player lose array
-            playRandomSound(sounds: playerLoseSounds)
+            playRandomSound(sounds: mooreWinSounds)
             addDealerScore()
             
         }
@@ -451,7 +438,7 @@ class GameScene: SKScene {
             instructionText.text = "Tie - Dealer Wins!"
             winner = dealer
             //tie array func
-            playRandomSound(sounds: arrayTieSounds)
+            playRandomSound(sounds: bondTieSounds)
             addDealerScore()
         }
         
@@ -462,7 +449,7 @@ class GameScene: SKScene {
             instructionText.text="You Win!";
             winner = player1
             //dealer lose array
-            playRandomSound(sounds: dealerLoseSounds)
+            playRandomSound(sounds: conneryWinsSounds)
             addPlayerScore()
         }
         
@@ -547,94 +534,23 @@ class GameScene: SKScene {
          }
 
          audioPlayer?.play()
-        
-    
     }
     
     
-    
+}
     
     
   /*
    
-    //the following enum was used to change the background. I have set the points 0 to 5, 6 to 10 etc instead of 20 and 40 so using the simulator would be easier to check if the code worked.
-     
-     enum TableType: String {
-         case ovaloffice
-         case austin
-         case bond
-     }
-     extension TableType {
-         static func `for`(playerScore: Int) -> TableType {
-             switch playerScore {
-             case 0...5:
-                 return .ovaloffice
-             case 6...10:
-                 return .austin
-             default:
-                 return .bond
-             }
-         }
-         var imageName: String {rawValue}
-       }
-
-     var tableType: TableType = .ovaloffice
-     var playerScore = 0 {
-         didSet(newScore) {
-             let newTableType = TableType.for(playerScore: newScore)
-             //Call `replaceTable()` only on `tableType` did change
-             if tableType != newTableType {
-                 tableType = newTableType
-                 
-             }
-         }
-     }
-
-     
-     
-     //the following function was used to try to get the table to change
-     
-     func replaceTable(){
+    
+             
             
-            if let table = currentTable{
-                table.removeFromParent()
-                currentTable = nil
-            }
-            let table = SKSpriteNode(imageNamed: tableType.imageName)
-            addChild(table)
-            table.position = CGPoint(x: size.width/2, y: size.height/2)
-            //   table.zPosition = -1
-            switch tableType {
-            case .ovaloffice:
-                //...
-                break
-            case .austin:
-                //...
-                break
-            case .bond:
-                //...
-                break
      
     
     
      
      
-     //casino chips func had to be removed because Apple dont allow even simulated gambling unless the developer is a registered company, it was replaced by a score function. At some point I will convert the app for android which wont have the the same policy as Apple so I kept it for the moment.
      
-     
-    func casinoChips(){
-     let url = Bundle.main.url(forResource: "chips", withExtension: "mp3")
-        //make sure that we have the url, otherwise abort
-        guard url != nil else {
-            return}
-        //create the audio player and play the sound.
-        do {
-            audioPlayer = try AVAudioPlayer(contentsOf: url!)
-            audioPlayer?.play()}
-        catch {print("error")}
-        }
-   
-
   
    //sounds were tpp repetative , removed at this stage. need more material.
     
@@ -674,10 +590,113 @@ class GameScene: SKScene {
          }
 
          audioPlayer?.play()
+ 
+ 
+ 
+ //array of arrays of all the current files grouped into characters
+ 
      
+ //the following sound arrays will play 0 to 19 points on player score
+ 
+  let conneryBjSounds = ["its blk jk", "run out cash", "sc bona", "george", "rm sam", "arse whipped"]
+  let conneryBustSounds = ["live die", "shocking", "rm never", "rm half ck", "rm 6"]
+  let conneryWinsSounds = ["field bad", "ride", "destiny", "pass cash", "its sean", "rm world", "beat sleep", "arse whipped"]
+  let mooreBjSounds = ["smug", "my line", "rm blk jk", "rm ego", "rm russia"]
+  let mooreBustSounds = ["galore", "bot lip", "well bust", "blessings", "bad luck", "busted true", "rm pity", "rm penny", "rm team", "rm glass eye"]
+  let mooreWinSounds = ["rm perfect", "rm magnet", "rm sheer mag", "rm writing", "rm bon appet"]
+  let bondTieSounds = ["rm shaken", "rm next hand", "rm inflated", "rm point", "rm cookie"]
+ 
+  var bondSounds = [[String]]()
+  bondSounds += [conneryBjSounds, conneryBustSounds, conneryWinsSounds, mooreBjSounds, mooreBustSounds, mooreWinSounds, bondTieSounds, bondTieSounds]
+ 
+ 
+ 
+ 
+ 
+
+ //the following sound arrays will play 20 to 39 points on player score
+ 
+ let arnieBjSounds = ["looks", "my seat2", "knicks", "daddy money", "cheeto", "whipped"]
+ let arnieBustSounds = ["mail order", "winning not", "crayon", "on the chin", "move lips ah", "stupid", "food chain", "gooder", "teeth"]
+ let trumpBjSounds = ["35 bj", "ping pong", "whitejack", "piss off", "chicken", "can i say", "not whitejack", "blow mouth"]
+ let trumpTieSounds = ["knicks", "rig it", "kings", "ping pong", "on the chin", "gooder"]
+ let arnieLoseSounds = ["stump up pb", "lose to donald", "rig it", "sarcasm", "hooker", "hilarys hand", "kings", "beat ass", "happy meal"]
+ let trumpBustSounds = ["be back da", "won again", "leather", "thick b", "my seat", "d duck", "lost conc", "russian"]
+ let trumpLoseSounds = ["lose better", "hilary desk", "not ripped", "chunky ass", "easy come", "you win im rich", "loose change", "whipped"]
+ 
+ var trump = [[String]]()
+ trump += [arnieBjSounds, arnieBustSounds, trumpBjSounds, trumpTieSounds, arnieLoseSounds, trumpBustSounds, trumpLoseSounds]
+ 
+
+
+ 
+ //the following sound arrays will play 40 to 59 points on player score
+ 
+ let austinbjsounds = ["69", "shagjack", "big blackjack", "shagjack again", "shagadelic", "batman", "groovy", "bjk in house", "blk bby", "blk sha", "shag on", "swinger"]
+ let austinBustSounds = ["bust come on", "bust dam it", "dick move", "grater", "fook me not again", "come on", "not again", "fookme", "oops", "ev bust agn", "ev jacket", "kidding"]
+ let austinWinSounds = ["mojo right", "shaguar", "mojo back", "yeah baby", "masterdebater", "not bad", "bad hair day", "compels", "ev pussy"]
+ let evilBjSounds = ["gotta hurt", "not cool hate it", "bj fook me", "bj not again", "hand pick", "fookme not agn", "beehive", "ev mine agn","shine teeth"]
+ let evilBustSounds = ["way i like", "bust baby", "good+bad", "fare", "win some", "hurt toots", "shedding", "tangoed", "wham bam"]
+ let evilWinsSounds = ["mojo hit baby", "wintiny", "dealer wins", "woah", "bruised mojo", "cheetoing", "does hair", "candy", "ev plan"]
+ let austinTieSounds = ["low blow", "tie d wins", "def not cool", "behave", "tennis", "wife"]
+ 
+ var austinEvil = [[String]]()
+ austinEvil += [austinbjsounds, austinBustSounds, austinWinSounds, evilBjSounds, evilBustSounds, evilWinsSounds, tieSounds]
+
+
+ 
+
+
+ //the following sound arrays will play 60 to 99 points on player score
+ 
+ let deadPoolBjSounds = ["dp blk jk", "dp wham bam", "dp jimmy ch", "dp jimmy fn ch", "dp better blk jk ag", "x handsome", "dp xmas"]
+ let deadPoolBustSounds = ["waffles", "dp logolas", "dp thats hard", "dp francis", "dp muffling", "dp helmet head", "dp ace kojak", "dp not again", "dp come on", "x reckless", "x too ugly"]
+ let deadPoolWinSounds = ["feotus", "x hansome", "dp big chrome", "dp luvs u bby", "x spoke too long", "x logan"]
+ let xBjSounds = ["dp nice hand", "dp son of btch", "dp rock me", "dp god dam", "x bk jk jimmy", "x blk jk son of btch"]
+ let xBustSounds = ["x cheese grt", "dp xmas", "dp see it cm", "dp make it so", "dp beatles", "dp beggars", "dp better"]
+ let xWinsSounds = ["dp yesterday", "dp punch", "x perfectly", "x coming back", "dp francis", "dp ace kojak"]
+ let xTieSounds = ["x natural order", "dp drive through", "dp punch", "dp god dam"]
+ 
+ var xmenSounds = [[String]]()
+ xmenSounds += [deadPoolBjSounds, deadPoolBustSounds, deadPoolWinSounds, xBjSounds, xBustSounds, xWinsSounds, xTieSounds]
+
+ // im not sure if this is what you meant by themes but its grouped correctly into the 7 different scanarios.They are ordered in the arrays correctly for score increase.
+ 0 = 0 to 19, 1 = 20 to 39, 2 = 40 to 59, 3 = 60 to 99
+ You may find it useful or not I will go with what you think is best.
+ 
+ var playerBjSounds = [[String]]
+ playerBjSounds += [conneryBjSounds, arnieBjSounds, austinBjSounds, deadPoolBjSounds]
+ 
+ var dealerBjSounds = [[String]]
+ dealerBjSounds += [[mooreBjSounds, trumpBjSounds, evilBjSounds, xBjSounds]]
+ 
+ var playerBustSounds = [[Strings]]
+ playerBustSounds += [[conneryBustSounds, arnieBustSounds, austinBustSounds, deadPoolBustSounds]]
+ 
+ var dealerBustSounds = [[String]]
+ dealerBustSounds += [[mooreBustSounds, trumpBustSounds, evilBustSounds, xBustSounds]]
+ 
+ var playerWinSounds = [[String]]
+ playerWinSounds += [[conneryWinSounds, arnieWinSounds, austinWinSounds, deadPoolWinSounds]]
+ 
+ var dealerWinSounds = [[String]]
+ dealerWinSounds += [[mooreWinSounds, trumpWinSounds, evilWinSounds, xWinSounds]]
+ 
+ var tieSounds = [[Strings]]
+ tieSounds += [[bondTieSounds, trumpTieSounds, austinTieSounds, xTieSounds]]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
      
     */
     
     
-}
+
 
