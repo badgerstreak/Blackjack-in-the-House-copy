@@ -607,7 +607,7 @@ class GameScene: SKScene {
   let bondTieSounds = ["rm shaken", "rm next hand", "rm inflated", "rm point", "rm cookie"]
  
   var bondSounds = [[String]]()
-  bondSounds += [conneryBjSounds, conneryBustSounds, conneryWinsSounds, mooreBjSounds, mooreBustSounds, mooreWinSounds, bondTieSounds, bondTieSounds]
+  bondSounds += [conneryBjSounds, conneryBustSounds, conneryWinsSounds, mooreBjSounds, mooreBustSounds, mooreWinSounds, bondTieSounds]
  
  
  
